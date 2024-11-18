@@ -19,9 +19,7 @@ import tracoptimized3 from "../../../../public/assets/media/case-details/tracopt
 import tracoptimized4 from "../../../../public/assets/media/case-details/tracoptimized4.png";
 import case_d_mongo1 from "../../../../public/assets/media/case-details/case_d_mongo1.png";
 import case_d_ex from "../../../../public/assets/media/case-details/case_d_ex.png";
-import case_d_react1 from "../../../../public/assets/media/case-details/case_d_react1.png";
 import case_d_node1 from "../../../../public/assets/media/case-details/case_d_node1.png";
-import case_d_python from "../../../../public/assets/media/case-details/case_d_python.png";
 import case_d_html1 from "../../../../public/assets/media/case-details/case_d_html1.png";
 import case_d_js1 from "../../../../public/assets/media/case-details/case_d_js1.png";
 
@@ -35,10 +33,10 @@ const Case_onlineKorp = () => {
     return (
         <>
             <Head>
-                <title>Trac91 - RadarSoft Technologies LLP</title>
+                <title>OnlineKorp - RadarSoft Technologies LLP</title>
                 <meta
                     name="description"
-                    content="Trac91 - RadarSoft Technologies LLP"
+                    content="OnlineKorp - RadarSoft Technologies LLP"
                 />
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -72,7 +70,7 @@ const Case_onlineKorp = () => {
                                 </p>
                                 <div className="work-area-log">
                                     <Link className="work-area-lower-anchor-blue" href="www.OnlineKorp.com">
-                                        <Image src={planet} /> www.acadspace.org
+                                        <Image src={planet} /> www.OnlineKorp.com
                                     </Link>
                                 </div>
                             </div>
@@ -141,14 +139,7 @@ const Case_onlineKorp = () => {
                                 </Link>
                             </div>
                             <p>
-                                Online shopping should be easy, but tracking your orders often
-                                isn't. People end up juggling different apps, sifting through
-                                countless emails, and dealing with confusing updates. This makes
-                                a simple process stressful and frustrating. Trac91 is here to
-                                change that. We wanted to make tracking orders as simple as
-                                possible. With just your phone number, Trac91 brings all your
-                                order updates into one easy place, so you can relax and know
-                                exactly where your stuff is without any hassle.
+                                Starting a business or expanding a company can be a complex and time-consuming process, especially for entrepreneurs, startups, and small businesses navigating legal requirements, business formation, and financial services. Entrepreneurs often face difficulties accessing the right tools and guidance, dealing with regulatory complexities, and managing the various steps involved in establishing their business.
                             </p>
                         </div>
                     </div>
@@ -394,7 +385,7 @@ const Case_onlineKorp = () => {
                     <div className="row key_sec_row">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key">
                             <div>
-                                <div className="sub-text-heading">
+                                <div className="sub-text-heading sub-text">
                                     <h3>Simplified Application Process</h3>
                                     <div>
                                         <ul>
@@ -404,7 +395,7 @@ const Case_onlineKorp = () => {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="sub-text-heading">
+                                <div className="sub-text-heading sub-text">
                                     <h3>Comprehensive Compliance Support</h3>
                                     <ul>
                                         <li>

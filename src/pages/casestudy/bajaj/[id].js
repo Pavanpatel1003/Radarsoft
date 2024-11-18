@@ -33,10 +33,10 @@ const Case_bajaj = () => {
     return (
         <>
             <Head>
-                <title>Trac91 - RadarSoft Technologies LLP</title>
+                <title>Bajaj - RadarSoft Technologies LLP</title>
                 <meta
                     name="description"
-                    content="Trac91 - RadarSoft Technologies LLP"
+                    content="Bajaj - RadarSoft Technologies LLP"
                 />
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -384,7 +384,7 @@ const Case_bajaj = () => {
                     <div className="row key_sec_row">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key">
                             <div>
-                                <div className="sub-text-heading">
+                                <div className="sub-text-heading sub-text">
                                     <h3>Lead Management</h3>
                                     <div>
                                         <ul>
@@ -394,7 +394,7 @@ const Case_bajaj = () => {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="sub-text-heading">
+                                <div className="sub-text-heading sub-text">
                                     <h3>Weighted Premium Tracking</h3>
                                     <ul>
                                         <li>

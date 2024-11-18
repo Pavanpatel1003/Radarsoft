@@ -430,7 +430,7 @@ const Case_trac = () => {
           <div className="row key_sec_row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key">
               <div>
-                <div className="sub-text-heading">
+                <div className="sub-text-heading sub-text">
                   <h3>Local Shopping</h3>
                   <div>
                     <ul>
@@ -451,7 +451,7 @@ const Case_trac = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="sub-text-heading">
+                <div className="sub-text-heading sub-text">
                   <h3>Local Shopping</h3>
                   <ul>
                     <li>
