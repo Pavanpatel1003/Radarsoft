@@ -78,7 +78,7 @@ const Header = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
-              <div className="navbar-nav nav-center-width d-flex justify-content-between">
+              <div className="navbar-nav nav-center-width d-flex justify-content-between align-items-baseline">
                 <p
                   // href="#"
                   onMouseDown={() => handleLinkClick("/")}
