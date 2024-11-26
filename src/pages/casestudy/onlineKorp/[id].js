@@ -3,18 +3,18 @@ import Image from "next/image";
 import Link from "next/link";
 import acad from "../../../../public/assets/media/case-details/onlinekrop.png";
 import planet from "../../../../public/assets/media/case-details/planet-fill.png";
-// import onlineKrops from "../../../../public/assets/media/case-details/Onlinekorp/MacBookPro14.svg";
+import onlineKrops from "../../../../public/assets/media/case-details/Onlinekorp/MacBookPro14.svg";
 
-import onlineKrops from "../../../../public/assets/media/case-details/onlineKrops.png";
+// import onlineKrops from "../../../../public/assets/media/case-details/onlineKrops.png";
 import research from "../../../../public/assets/media/case-details/research.png";
 import design from "../../../../public/assets/media/case-details/design.png";
 import development from "../../../../public/assets/media/case-details/development.png";
 import testing from "../../../../public/assets/media/case-details/testing.png";
 import marketing from "../../../../public/assets/media/case-details/marketing.png";
-import onlineKrop1 from "../../../../public/assets/media/case-details/onlineKrop1.png";
-import onlineKrop2 from "../../../../public/assets/media/case-details/onlineKrop2.png";
-// import onlineKrop1 from "../../../../public/assets/media/case-details/Onlinekorp/MacBookPro16-1.svg";
-// import onlineKrop2 from "../../../../public/assets/media/case-details/Onlinekorp/MacBookPro17.svg";
+// import onlineKrop1 from "../../../../public/assets/media/case-details/onlineKrop1.png";
+// import onlineKrop2 from "../../../../public/assets/media/case-details/onlineKrop2.png";
+import onlineKrop2 from "../../../../public/assets/media/case-details/Onlinekorp/MacBookPro16-1.svg";
+import onlineKrop1 from "../../../../public/assets/media/case-details/Onlinekorp/MacBookPro17.svg";
 import suppport from "../../../../public/assets/media/case-details/suppport.png";
 // import MacBookpro from "../../../../public/assets/media/case-details/MacBookpro.png";
 import MacBookpro from "../../../../public/assets/media/case-details/Onlinekorp/MacBookPro16.png";
@@ -23,6 +23,7 @@ import tracoptimized1 from "../../../../public/assets/media/case-details/tracopt
 import tracoptimized2 from "../../../../public/assets/media/case-details/tracoptimized2.png";
 import tracoptimized3 from "../../../../public/assets/media/case-details/tracoptimized3.png";
 import tracoptimized4 from "../../../../public/assets/media/case-details/tracoptimized4.png";
+
 import case_d_mongo1 from "../../../../public/assets/media/case-details/allicon/mongo.svg";
 import case_d_ex from "../../../../public/assets/media/case-details/allicon/ex.svg";
 import case_d_node1 from "../../../../public/assets/media/case-details/allicon/node.svg";
