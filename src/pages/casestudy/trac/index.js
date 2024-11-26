@@ -17,10 +17,10 @@ import keytrac2 from "../../../../public/assets/media/case-details/trac91/locals
 // import tracoptimized2 from "../../../../public/assets/media/case-details/tracoptimized2.png";
 // import tracoptimized3 from "../../../../public/assets/media/case-details/tracoptimized3.png";
 // import tracoptimized4 from "../../../../public/assets/media/case-details/tracoptimized4.png";
-import tracoptimized1 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/localeorders.webp";
-import tracoptimized2 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/myorders.webp";
-import tracoptimized3 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/shoplocal.webp";
-import tracoptimized4 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/sazo.webp";
+import tracoptimized1 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/locateorders.svg";
+import tracoptimized2 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/myorders.svg";
+import tracoptimized3 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/shoplocal.svg";
+import tracoptimized4 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/sazo.svg";
 
 import case_d_mongo1 from "../../../../public/assets/media/case-details/allicon/mongo.svg";
 import case_d_ex from "../../../../public/assets/media/case-details/allicon/ex.svg";

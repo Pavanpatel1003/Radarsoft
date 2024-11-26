@@ -14,10 +14,10 @@ import common_contact from "../../../../public/assets/media/common/common-contac
 // import optimized3 from "../../../../public/assets/media/case-details/optimized3.png";
 // import optimized4 from "../../../../public/assets/media/case-details/optimized4.png";
 
-import optimized1 from "../../../../public/assets/media/case-details/Abhyan/Courses.webp";
-import optimized2 from "../../../../public/assets/media/case-details/Abhyan/Question.webp";
-import optimized3 from "../../../../public/assets/media/case-details/Abhyan/Anandmishra.webp";
-import optimized4 from "../../../../public/assets/media/case-details/Abhyan/Digital Marketing bundle.webp";
+import optimized1 from "../../../../public/assets/media/case-details/Abhyan/Courses.svg";
+import optimized2 from "../../../../public/assets/media/case-details/Abhyan/Question.svg";
+import optimized3 from "../../../../public/assets/media/case-details/Abhyan/Anandmishra.svg";
+import optimized4 from "../../../../public/assets/media/case-details/Abhyan/DigitalMarketingbundle.svg";
 
 
 import user from "../../../../public/assets/media/case-details/Abhyan/keyaccomplishments.webp";
