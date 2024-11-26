@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import aboutImg from "../../../public/assets/media/about-bannner.webp";
+// import aboutImg from "../../../public/assets/media/about-bannner.webp";
+import aboutImg from "../../../public/assets/media/aboutus11.webp";
+
 import office from "../../../public/assets/media/office-image.webp";
 import dedication from "../../../public/assets/media/dedication.png";
 import code from "../../../public/assets/media/code-management.png";
@@ -63,7 +65,7 @@ const About = () => {
             className="w-100 h-auto d-lg-none d-block"
             alt=""
           />
-          <Image className="w-100 d-lg-block d-none" src={aboutImg} alt="" />
+          <Image className="w-100 h-100 d-lg-block d-none" src={aboutImg} alt="" />
         </div>
       </section>
 

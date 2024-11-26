@@ -198,7 +198,7 @@ const CaseStudy = () => {
                   <h4>
                     OnlineKorp: Your Trusted Partner for Tailored Digital Solutions to Elevate Your Business
                   </h4>
-                  <Link className="case-read-more" href="/casestudy/onlineKorp/2">
+                  <Link className="case-read-more" href="/casestudy/onlineKorp">
                     Read more&nbsp;
                     <span>
                       <i className="fa-solid fa-arrow-right-long"></i>
@@ -224,7 +224,7 @@ const CaseStudy = () => {
                   <h4>
                     Bajaj Allianz: Empowering Businesses with Performance Tracking and Goal Management
                   </h4>
-                  <Link className="case-read-more" href="/casestudy/bajaj/2">
+                  <Link className="case-read-more" href="/casestudy/bajaj">
                     Read more&nbsp;
                     <span>
                       <i className="fa-solid fa-arrow-right-long"></i>
