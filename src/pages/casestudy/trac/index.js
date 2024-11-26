@@ -3,33 +3,34 @@ import Image from "next/image";
 import Link from "next/link";
 import trac from "../../../../public/assets/media/case-details/trac.png";
 import planet from "../../../../public/assets/media/case-details/planet-fill.png";
-import tracyc from "../../../../public/assets/media/case-details/keyobjectivesfirstside.webp";
+import tracyc from "../../../../public/assets/media/case-details/trac91/keyobjectivesfirstside.webp";
 import research from "../../../../public/assets/media/case-details/research.png";
 import design from "../../../../public/assets/media/case-details/design.png";
 import development from "../../../../public/assets/media/case-details/development.png";
 import testing from "../../../../public/assets/media/case-details/testing.png";
 import marketing from "../../../../public/assets/media/case-details/marketing.png";
 import suppport from "../../../../public/assets/media/case-details/suppport.png";
-import traccen from "../../../../public/assets/media/case-details/pointsoneimage.webp";
-import keytrac1 from "../../../../public/assets/media/case-details/trac91livestatus.webp";
-import keytrac2 from "../../../../public/assets/media/case-details/localshopping.webp";
-import tracoptimized1 from "../../../../public/assets/media/case-details/tracoptimized1.png";
-import tracoptimized2 from "../../../../public/assets/media/case-details/tracoptimized2.png";
-import tracoptimized3 from "../../../../public/assets/media/case-details/tracoptimized3.png";
-import tracoptimized4 from "../../../../public/assets/media/case-details/tracoptimized4.png";
-// import tracoptimized1 from "../../../../public/assets/media/case-details/optimizedfortracking/localeorders.webp";
-// import tracoptimized2 from "../../../../public/assets/media/case-details/optimizedfortracking/myorders.webp";
-// import tracoptimized3 from "../../../../public/assets/media/case-details/optimizedfortracking/shoplocal.webp";
-// import tracoptimized4 from "../../../../public/assets/media/case-details/optimizedfortracking/sazo.webp";
-import case_d_mongo1 from "../../../../public/assets/media/case-details/case_d_mongo1.png";
-import case_d_ex from "../../../../public/assets/media/case-details/case_d_ex.png";
-import case_d_react1 from "../../../../public/assets/media/case-details/case_d_react1.png";
-import case_d_node1 from "../../../../public/assets/media/case-details/case_d_node1.png";
-import case_d_python from "../../../../public/assets/media/case-details/case_d_python.png";
-import case_d_html1 from "../../../../public/assets/media/case-details/case_d_html1.png";
-import case_d_js1 from "../../../../public/assets/media/case-details/case_d_js1.png";
+import traccen from "../../../../public/assets/media/case-details/trac91/pointsoneimage.webp";
+import keytrac1 from "../../../../public/assets/media/case-details/trac91/trac91livestatus.webp";
+import keytrac2 from "../../../../public/assets/media/case-details/trac91/localshopping.webp";
+// import tracoptimized1 from "../../../../public/assets/media/case-details/tracoptimized1.png";
+// import tracoptimized2 from "../../../../public/assets/media/case-details/tracoptimized2.png";
+// import tracoptimized3 from "../../../../public/assets/media/case-details/tracoptimized3.png";
+// import tracoptimized4 from "../../../../public/assets/media/case-details/tracoptimized4.png";
+import tracoptimized1 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/localeorders.webp";
+import tracoptimized2 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/myorders.webp";
+import tracoptimized3 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/shoplocal.webp";
+import tracoptimized4 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/sazo.webp";
 
-import case_d_aws1 from "../../../../public/assets/media/case-details/case_d_aws1.png";
+import case_d_mongo1 from "../../../../public/assets/media/case-details/allicon/mongo.svg";
+import case_d_ex from "../../../../public/assets/media/case-details/allicon/ex.svg";
+import case_d_react1 from "../../../../public/assets/media/case-details/allicon/react.svg";
+import case_d_node1 from "../../../../public/assets/media/case-details/allicon/node.svg";
+import case_d_python from "../../../../public/assets/media/case-details/allicon/python.svg";
+import case_d_html1 from "../../../../public/assets/media/case-details/allicon/html.svg";
+import case_d_js1 from "../../../../public/assets/media/case-details/allicon/js.svg";
+import case_d_aws1 from "../../../../public/assets/media/case-details/allicon/aws.svg";
+
 import common_contact from "../../../../public/assets/media/common/common-contact.webp";
 import { useRouter } from "next/router";
 import Head from "next/head";
@@ -516,7 +517,7 @@ const Case_trac = () => {
               </div>
             </div>
           </div>
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2 foursimage">
             <div class="col text-center">
               <div class="p-3">
                 <img src={tracoptimized1.src}></img>

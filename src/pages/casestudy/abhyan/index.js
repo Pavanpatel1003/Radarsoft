@@ -1,19 +1,26 @@
 import React from "react";
 import case_d from "../../../../public/assets/media/case-details/case_d.png";
-import case_d_mongo1 from "../../../../public/assets/media/case-details/case_d_mongo1.png";
-import case_d_aws1 from "../../../../public/assets/media/case-details/case_d_aws1.png";
-import case_d_flutter1 from "../../../../public/assets/media/case-details/case_d_flutter1.png";
-import case_d_html1 from "../../../../public/assets/media/case-details/case_d_html1.png";
-import case_d_php1 from "../../../../public/assets/media/case-details/case_d_php1.png";
-import case_d_js1 from "../../../../public/assets/media/case-details/case_d_js1.png";
-import case_d_react1 from "../../../../public/assets/media/case-details/case_d_react1.png";
-import case_d_node1 from "../../../../public/assets/media/case-details/case_d_node1.png";
+import case_d_mongo1 from "../../../../public/assets/media/case-details/allicon/mongo.svg";
+import case_d_aws1 from "../../../../public/assets/media/case-details/allicon/aws.svg";
+import case_d_flutter1 from "../../../../public/assets/media/case-details/allicon/flutter.svg";
+import case_d_html1 from "../../../../public/assets/media/case-details/allicon/html.svg";
+import case_d_php1 from "../../../../public/assets/media/case-details/allicon/php.svg";
+import case_d_js1 from "../../../../public/assets/media/case-details/allicon/js.svg";
+import case_d_react1 from "../../../../public/assets/media/case-details/allicon/react.svg";
+import case_d_node1 from "../../../../public/assets/media/case-details/allicon/node.svg";
 import common_contact from "../../../../public/assets/media/common/common-contact.webp";
-import optimized1 from "../../../../public/assets/media/case-details/optimized1.png";
-import optimized2 from "../../../../public/assets/media/case-details/optimized2.png";
-import optimized3 from "../../../../public/assets/media/case-details/optimized3.png";
-import optimized4 from "../../../../public/assets/media/case-details/optimized4.png";
-import user from "../../../../public/assets/media/case-details/user.png";
+// import optimized1 from "../../../../public/assets/media/case-details/optimized1.png";
+// import optimized2 from "../../../../public/assets/media/case-details/optimized2.png";
+// import optimized3 from "../../../../public/assets/media/case-details/optimized3.png";
+// import optimized4 from "../../../../public/assets/media/case-details/optimized4.png";
+
+import optimized1 from "../../../../public/assets/media/case-details/Abhyan/Courses.webp";
+import optimized2 from "../../../../public/assets/media/case-details/Abhyan/Question.webp";
+import optimized3 from "../../../../public/assets/media/case-details/Abhyan/Anandmishra.webp";
+import optimized4 from "../../../../public/assets/media/case-details/Abhyan/Digital Marketing bundle.webp";
+
+
+import user from "../../../../public/assets/media/case-details/Abhyan/keyaccomplishments.webp";
 import case_d_Empowering_real from "../../../../public/assets/media/case-details/Real_Mocks_22.png";
 import research from "../../../../public/assets/media/case-details/research.png";
 import design from "../../../../public/assets/media/case-details/design.png";
@@ -496,7 +503,7 @@ const Case_details = () => {
               </div>
             </div>
           </div>
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2 foursimage">
             <div class="col text-center">
               <div class="p-3">
                 <img src={optimized1.src}></img>
