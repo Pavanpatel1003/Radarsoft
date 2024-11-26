@@ -178,7 +178,7 @@ const Case_trac = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6">
               <div className="commom-heading">
-                <h2>Key Accomplishments</h2>
+                <h2>Key Objectives</h2>
                 <p>
                   Trac91 has made big improvements to make your online shopping
                   easier and more connected. We now offer live order tracking,

@@ -11,10 +11,10 @@ import design from "../../../../public/assets/media/case-details/design.png";
 import development from "../../../../public/assets/media/case-details/development.png";
 import testing from "../../../../public/assets/media/case-details/testing.png";
 import marketing from "../../../../public/assets/media/case-details/marketing.png";
-// import bajaj1 from "../../../../public/assets/media/case-details/bajaj1.png";
-import bajaj1 from "../../../../public/assets/media/case-details/bajaj/MacBookPro3.png";
-// import bajaj2 from "../../../../public/assets/media/case-details/bajaj2.png";
-import bajaj2 from "../../../../public/assets/media/case-details/bajaj/MacBookPro4.png";
+import bajaj1 from "../../../../public/assets/media/case-details/bajaj1.png";
+import bajaj2 from "../../../../public/assets/media/case-details/bajaj2.png";
+// import bajaj1 from "../../../../public/assets/media/case-details/bajaj/MacBookPro3.png";
+// import bajaj2 from "../../../../public/assets/media/case-details/bajaj/MacBookPro4.png";
 import suppport from "../../../../public/assets/media/case-details/suppport.png";
 // import MacBookbajaj from "../../../../public/assets/media/case-details/MacBookbajaj.png";
 import MacBookbajaj from "../../../../public/assets/media/case-details/bajaj/MacBookPro2.png";
@@ -23,6 +23,7 @@ import tracoptimized1 from "../../../../public/assets/media/case-details/tracopt
 import tracoptimized2 from "../../../../public/assets/media/case-details/tracoptimized2.png";
 import tracoptimized3 from "../../../../public/assets/media/case-details/tracoptimized3.png";
 import tracoptimized4 from "../../../../public/assets/media/case-details/tracoptimized4.png";
+
 import case_d_angular from "../../../../public/assets/media/case-details/allicon/angular.svg";
 import case_d_html1 from "../../../../public/assets/media/case-details/allicon/html.svg";
 import case_d_js1 from "../../../../public/assets/media/case-details/allicon/js.svg";
@@ -404,14 +405,6 @@ const Case_bajaj = () => {
                                     <ul>
                                         <li>
                                             The platform allows users to track weighted premiums efficiently, ensuring accurate calculation of earnings and commissions.
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="sub-text-heading">
-                                    <h3>Incentive and Earnings Tracking</h3>
-                                    <ul>
-                                        <li>
-                                            We've introduced a points system, as confirmed by the "44 points" displayed in the image , motivating users to participate more actively in quizzes.
                                         </li>
                                     </ul>
                                 </div>
