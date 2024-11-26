@@ -84,7 +84,7 @@ const Header = () => {
                   onMouseDown={() => handleLinkClick("/")}
                   style={{
                     cursor: "pointer",
-                    marginTop: "8px",
+                    marginTop: "10px",
                     marginBottom: "0px",
                   }}
                   className={`nav-item nav-link list-style ${
@@ -739,7 +739,7 @@ const Header = () => {
                   // href="#"
                   style={{
                     cursor: "pointer",
-                    marginTop: "8px",
+                    marginTop: "10px",
                     marginBottom: "0px",
                   }}
                   onMouseDown={() => handleLinkClick("/casestudy")}
@@ -753,7 +753,7 @@ const Header = () => {
                   // href="#"
                   style={{
                     cursor: "pointer",
-                    marginTop: "8px",
+                    marginTop: "10px",
                     marginBottom: "0px",
                   }}
                   className={`nav-item nav-link list-style ${
@@ -767,7 +767,7 @@ const Header = () => {
                 <p
                   style={{
                     cursor: "pointer",
-                    marginTop: "8px",
+                    marginTop: "10px",
                     marginBottom: "0px",
                   }}
                   // href="#"

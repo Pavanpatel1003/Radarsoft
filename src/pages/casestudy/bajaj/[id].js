@@ -4,26 +4,31 @@ import Link from "next/link";
 import bajaj from "../../../../public/assets/media/case-details/bajajlogo.png";
 import planet from "../../../../public/assets/media/case-details/planet-fill.png";
 import bajajs from "../../../../public/assets/media/case-details/bajajs.png";
+// import bajajs from "../../../../public/assets/media/case-details/bajaj/mc1.png";
+
 import research from "../../../../public/assets/media/case-details/research.png";
 import design from "../../../../public/assets/media/case-details/design.png";
 import development from "../../../../public/assets/media/case-details/development.png";
 import testing from "../../../../public/assets/media/case-details/testing.png";
 import marketing from "../../../../public/assets/media/case-details/marketing.png";
-import bajaj1 from "../../../../public/assets/media/case-details/bajaj1.png";
-import bajaj2 from "../../../../public/assets/media/case-details/bajaj2.png";
+// import bajaj1 from "../../../../public/assets/media/case-details/bajaj1.png";
+import bajaj1 from "../../../../public/assets/media/case-details/bajaj/MacBookPro3.png";
+// import bajaj2 from "../../../../public/assets/media/case-details/bajaj2.png";
+import bajaj2 from "../../../../public/assets/media/case-details/bajaj/MacBookPro4.png";
 import suppport from "../../../../public/assets/media/case-details/suppport.png";
-import MacBookbajaj from "../../../../public/assets/media/case-details/MacBookbajaj.png";
+// import MacBookbajaj from "../../../../public/assets/media/case-details/MacBookbajaj.png";
+import MacBookbajaj from "../../../../public/assets/media/case-details/bajaj/MacBookPro2.png";
 
 import tracoptimized1 from "../../../../public/assets/media/case-details/tracoptimized1.png";
 import tracoptimized2 from "../../../../public/assets/media/case-details/tracoptimized2.png";
 import tracoptimized3 from "../../../../public/assets/media/case-details/tracoptimized3.png";
 import tracoptimized4 from "../../../../public/assets/media/case-details/tracoptimized4.png";
-import case_d_angular from "../../../../public/assets/media/case-details/case_d_angular.png";
-import case_d_html1 from "../../../../public/assets/media/case-details/case_d_html1.png";
-import case_d_js1 from "../../../../public/assets/media/case-details/case_d_js1.png";
-import case_d_java from "../../../../public/assets/media/case-details/case_d_java.png";
-import case_d_bootstrap from "../../../../public/assets/media/case-details/case_d_bootstrap.png";
-import case_d_aws1 from "../../../../public/assets/media/case-details/case_d_aws1.png";
+import case_d_angular from "../../../../public/assets/media/case-details/allicon/angular.svg";
+import case_d_html1 from "../../../../public/assets/media/case-details/allicon/html.svg";
+import case_d_js1 from "../../../../public/assets/media/case-details/allicon/js.svg";
+import case_d_java from "../../../../public/assets/media/case-details/allicon/java.svg";
+import case_d_bootstrap from "../../../../public/assets/media/case-details/allicon/bootstrap.svg";
+import case_d_aws1 from "../../../../public/assets/media/case-details/allicon/aws.svg";
 import common_contact from "../../../../public/assets/media/common/common-contact.webp";
 import { useRouter } from "next/router";
 import Head from "next/head";
@@ -412,7 +417,7 @@ const Case_bajaj = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div className="col-12 col-sm-12 col-md-12 col-lg-6 right_img">
                             <Image src={bajaj2} alt="" className="case_d_right_img_dashboard" />
                         </div>
                     </div>

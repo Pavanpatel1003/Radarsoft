@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import acad from "../../../../public/assets/media/case-details/acad.png";
 import planet from "../../../../public/assets/media/case-details/planet-fill.png";
-import keyacad from "../../../../public/assets/media/case-details/keyacad.png";
+import Keyobjectivessideimage from "../../../../public/assets/media/case-details/Keyobjectivessideimage.webp";
 import research from "../../../../public/assets/media/case-details/research.png";
 import design from "../../../../public/assets/media/case-details/design.png";
 import development from "../../../../public/assets/media/case-details/development.png";
@@ -11,12 +11,16 @@ import testing from "../../../../public/assets/media/case-details/testing.png";
 import marketing from "../../../../public/assets/media/case-details/marketing.png";
 import suppport from "../../../../public/assets/media/case-details/suppport.png";
 import iPhone15 from "../../../../public/assets/media/case-details/iPhone15.png";
-import acadkey1 from "../../../../public/assets/media/case-details/acadkey1.png";
-import acadkey2 from "../../../../public/assets/media/case-details/acadkey2.png";
+import acadkey1 from "../../../../public/assets/media/case-details/keyaccomplishments.webp";
+import acadkey2 from "../../../../public/assets/media/case-details/CareerLibraryCareerPathsAccomplishments.webp";
 import acadoptimized1 from "../../../../public/assets/media/case-details/acadoptimized1.png";
 import acadoptimized2 from "../../../../public/assets/media/case-details/acadoptimized2.png";
 import acadoptimized3 from "../../../../public/assets/media/case-details/acadoptimized3.png";
 import acadoptimized4 from "../../../../public/assets/media/case-details/acadoptimized4.png";
+// import acadoptimized1 from "../../../../public/assets/media/case-details/optimized/Home.webp";
+// import acadoptimized2 from "../../../../public/assets/media/case-details/optimized/personalitytest.webp";
+// import acadoptimized3 from "../../../../public/assets/media/case-details/optimized/Careerlibrary.webp";
+// import acadoptimized4 from "../../../../public/assets/media/case-details/optimized/Topactivities.webp";
 import case_d_mongo1 from "../../../../public/assets/media/case-details/case_d_mongo1.png";
 import case_d_ex from "../../../../public/assets/media/case-details/case_d_ex.png";
 import case_d_react1 from "../../../../public/assets/media/case-details/case_d_react1.png";
@@ -204,7 +208,7 @@ const Case_acad = () => {
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6">
-              <Image className="case_d_right_img" src={keyacad} alt="" />
+              <Image className="case_d_right_img" src={Keyobjectivessideimage} alt="" />
             </div>
           </div>
         </div>
@@ -496,7 +500,7 @@ const Case_acad = () => {
               </div>
             </div>
           </div>
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2 optimized_img">
             <div class="col text-center">
               <div class="p-3">
                 <img src={acadoptimized1.src}></img>
