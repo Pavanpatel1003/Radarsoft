@@ -392,7 +392,7 @@ const Case_onlineKorp = () => {
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key">
                             <div>
                                 <div className="sub-text-heading sub-text">
-                                    <h3>Simplified Application Process</h3>
+                                    <h3>Simplified<br /> Application Process</h3>
                                     <div>
                                         <ul>
                                             <li>
@@ -557,7 +557,7 @@ const Case_onlineKorp = () => {
                                 <span class="case-d-num">4.9</span>
                                 {/* <span><i class="fa-solid fa-arrow-up uparrow"></i></span> */}
                                 <hr />
-                                <p>Ratings by students</p>
+                                <p>Ratings by user’s</p>
                             </div>
                         </div>
                         <div class="col">

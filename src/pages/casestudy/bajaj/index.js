@@ -13,7 +13,7 @@ import marketing from "../../../../public/assets/media/case-details/marketing.pn
 import bajaj1 from "../../../../public/assets/media/case-details/bajaj/MacBookPro3.svg";
 import bajaj2 from "../../../../public/assets/media/case-details/bajaj/MacBookPro4.svg";
 import suppport from "../../../../public/assets/media/case-details/suppport.png";
-import MacBookbajaj from "../../../../public/assets/media/case-details/bajaj/MacBookPro2.png";
+import MacBookbajaj from "../../../../public/assets/media/case-details/bajaj/customer360.svg";
 
 import tracoptimized1 from "../../../../public/assets/media/case-details/tracoptimized1.png";
 import tracoptimized2 from "../../../../public/assets/media/case-details/tracoptimized2.png";
@@ -543,7 +543,7 @@ const Case_bajaj = () => {
                                 <span class="case-d-num">4.8</span>
                                 {/* <span><i class="fa-solid fa-arrow-up uparrow"></i></span> */}
                                 <hr />
-                                <p>Ratings by students</p>
+                                <p>Ratings by user’s</p>
                             </div>
                         </div>
                         <div class="col">
