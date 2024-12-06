@@ -1278,6 +1278,7 @@ input:focus-visible {
 
 .service-d-industries {
   padding: 60px 0px 80px;
+  display: none;
 }
 
 .details-new {
@@ -1385,4 +1386,11 @@ input:focus-visible {
 
 .soical_icon {
   color: #f1f1f199;
+}
+
+
+.service_details_ours {
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }

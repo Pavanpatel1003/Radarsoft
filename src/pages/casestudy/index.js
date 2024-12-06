@@ -5,6 +5,7 @@ import case3 from "../../../public/assets/media/case/case3.webp";
 import case4 from "../../../public/assets/media/case/case4.webp";
 import case2 from "../../../public/assets/media/case/onlineKrop.png";
 import case5 from "../../../public/assets/media/case/bajaj.png";
+import case6 from "../../../public/assets/media/case/endura.svg";
 import casestudybanner from "../../../public/assets/media/case/casestudybanner.webp";
 import Link from "next/link";
 import Head from "next/head";
@@ -196,7 +197,7 @@ const CaseStudy = () => {
                 </div>
                 <div className="case-card-head">
                   <h4>
-                    OnlineKorp: Your Trusted Partner for Tailored Digital Solutions to Elevate Your Business
+                    OnlineKorp - Your Trusted Partner for Tailored Digital Solutions to Elevate Your Business
                   </h4>
                   <Link className="case-read-more" href="/casestudy/onlineKorp">
                     Read more&nbsp;
@@ -222,9 +223,36 @@ const CaseStudy = () => {
                 </div>
                 <div className="case-card-head">
                   <h4>
-                    Bajaj Allianz: Empowering Businesses with Performance Tracking and Goal Management
+                    Bajaj Allianz - Empowering Businesses with Performance Tracking and Goal Management
                   </h4>
                   <Link className="case-read-more" href="/casestudy/bajaj">
+                    Read more&nbsp;
+                    <span>
+                      <i className="fa-solid fa-arrow-right-long"></i>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="">
+                <div>
+                  <img src={case6.src} alt="" className="w-100" />
+                </div>
+                <div className="case-btn-set">
+                  <Link className="case-edtech-btn" href="">
+                    Fitness
+                  </Link>
+                  <Link className="case-mobile-btn" href="">
+                    Mobile
+                  </Link>
+                </div>
+                <div className="case-card-head">
+                  <h4>
+                    Endura Fitness - Transforming Fitness Journeys with Personalized Guidance and Community Support
+                  </h4>
+                  <Link className="case-read-more" href="/casestudy/endura">
                     Read more&nbsp;
                     <span>
                       <i className="fa-solid fa-arrow-right-long"></i>
