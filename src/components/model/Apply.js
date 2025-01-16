@@ -74,7 +74,8 @@ const Apply = ({ selectedJobTitle }) => {
     if (selectedJobTitle) {
       formik.setFieldValue("jobTitle", selectedJobTitle);
     }
-  }, [selectedJobTitle]);
+  }, [selectedJobTitle, formik]);
+
 
   return (
     <>
@@ -205,7 +206,7 @@ const Apply = ({ selectedJobTitle }) => {
                   </div>
                   <div className="form-group">
                     <label htmlFor="resume">Upload resume</label>
-                    <div   style={{ position: "relative" }}>
+                    <div style={{ position: "relative" }}>
                       <input
                         type="file"
                         className="file-type"
