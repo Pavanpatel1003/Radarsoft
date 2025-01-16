@@ -407,7 +407,7 @@ const Digital = () => {
             <div className="col">
               <div>
                 <Image
-                  src={digitaltransformation1.src} /
+                  src={digitaltransformation1.src} 
                   alt="Description of the image"
                   className="w-100"
                 />
@@ -436,7 +436,7 @@ const Digital = () => {
             <div className="col">
               <div>
                 <Image
-                  src={digitaltransformation2.src} /
+                  src={digitaltransformation2.src} 
                   alt="Description of the image"
                   className="w-100"
                 />
