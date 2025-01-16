@@ -252,7 +252,6 @@ const Contact = () => {
                         className="form-control"
                         id="country"
                         name="country"
-                        // aria-placeholder="Country"
                         value={formik.values.country}
                         onChange={formik.handleChange}
                       >

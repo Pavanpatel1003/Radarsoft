@@ -718,11 +718,12 @@ export default function Home() {
               <Slider {...sliderSettings}>
                 {serviceItems.map((service) => (
                   <div
+                  key={service.id}  
                     className="col-lg-3 col-md-6 my-lg-0 my-3"
                     style={{ cursor: "pointer" }}
                     onClick={() => handleServices(router, service.id)}
                   >
-                    <div key={service.id} className={`${service?.bgcolor}`}>
+                    <div className={`${service?.bgcolor}`}>
                       <Image
                         className="service img-fluid"
                         src={service.image}
