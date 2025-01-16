@@ -969,7 +969,7 @@ export default function Home() {
                       style={{ background: "#002758" }}
                     > */}
                       <div className="work-logo">
-                        <Image className="img-fluid" src={workLogo} />
+                        <Image className="img-fluid" src={workLogo} alt="Description of the image" />
                       </div>
                       <p>
                         Working with RadarSoft was great! Their professionalism
@@ -977,7 +977,7 @@ export default function Home() {
                         our expectations. Highly recommended!
                       </p>
                       <user>
-                        <Image className="img-fluid" src={vice} />
+                        <Image className="img-fluid" src={vice} alt="Description of the image" />
                         <span>
                           <h6>Vikram Verma</h6>
                           <p style={{ fontSize: "14px" }}>
@@ -996,7 +996,7 @@ export default function Home() {
                       style={{ background: "#002758" }}
                     > */}
                       <div className="work-logo">
-                        <Image className="img-fluid" src={workLogo2} />
+                        <Image className="img-fluid" src={workLogo2} alt="Description of the image" />
                       </div>
                       <p>
                         Working with RadarSoft was great! Their professionalism
@@ -1004,7 +1004,7 @@ export default function Home() {
                         our expectations. Highly recommended!
                       </p>
                       <user>
-                        <Image className="img-fluid" src={ajit} />
+                        <Image className="img-fluid" src={ajit} alt="Description of the image" />
                         <span>
                           <h6>Ajit Agarkar</h6>
                           <p style={{ fontSize: "14px" }}>
@@ -1023,7 +1023,7 @@ export default function Home() {
                         style={{ background: "#FFFFFF", color: "#000000" }}
                       > */}
                       <div className="work-logo">
-                        <Image className="img-fluid" src={workLogo3} />
+                        <Image className="img-fluid" src={workLogo3} alt="Description of the image" />
                       </div>
                       <p>
                         Working with RadarSoft was great! Their professionalism
@@ -1031,7 +1031,7 @@ export default function Home() {
                         our expectations. Highly recommended!
                       </p>
                       <user>
-                        <Image className="img-fluid" src={vice} />
+                        <Image className="img-fluid" src={vice} alt="Description of the image" />
                         <span>
                           <h6>Vikram Verma</h6>
                           <p style={{ fontSize: "14px" }}>
