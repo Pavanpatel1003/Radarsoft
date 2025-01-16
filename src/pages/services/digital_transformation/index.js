@@ -199,7 +199,7 @@ const Digital = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 digital_relative" data-aos="fade-right" data-aos-delay="300">
               <div className="digital_sec_bg">
-                <Image src={digital.src}  alt="" className="w-100" />
+                <Image src={digital.src}  alt="Description of the image" className="w-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">
@@ -341,7 +341,7 @@ const Digital = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
               <div className="case_d_con">
-                <Image src={common_contact.src}  alt="" className="w-100" />
+                <Image src={common_contact.src}  alt="Description of the image" className="w-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">
@@ -408,7 +408,7 @@ const Digital = () => {
               <div>
                 <Image
                   src={digitaltransformation1.src} /
-                  alt=""
+                  alt="Description of the image"
                   className="w-100"
                 />
               </div>
@@ -437,7 +437,7 @@ const Digital = () => {
               <div>
                 <Image
                   src={digitaltransformation2.src} /
-                  alt=""
+                  alt="Description of the image"
                   className="w-100"
                 />
               </div>

@@ -72,7 +72,7 @@ const Case_acad = () => {
               {/* <div className="work-area-lower-side"> */}
               <div className="work-lower-left col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-right" data-aos-delay="300">
                 <div className="work-area-logo">
-                  <Image className="work-logo" src={acad} alt="" />
+                  <Image className="work-logo" alt="Description of the image" src={acad}  />
                 </div>
                 <h1 className="work-area-lower-heading">
                   Google Maps for Career Prep <br />Empowering Students and <br />Supporting
@@ -91,7 +91,7 @@ const Case_acad = () => {
                     className="work-area-lower-anchor-blue"
                     href="https://acadspace.org/"
                   >
-                    <Image src={planet} /> www.acadspace.org
+                    <Image src={planet} alt="Description of the image" /> www.acadspace.org
                   </Link>
                 </div>
               </div>
@@ -219,7 +219,7 @@ const Case_acad = () => {
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <Image className="case_d_right_img" src={Keyobjectivessideimage} alt="" />
+              <Image className="case_d_right_img" src={Keyobjectivessideimage} alt="Description of the image" />
             </div>
           </div>
         </div>
@@ -369,7 +369,7 @@ const Case_acad = () => {
             </div>
             <div className="col-12 col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center mt-md-5 mb-md-5 mb-sm-5 text-center">
               <div className="img_set">
-                <Image src={iPhone15} alt="" className=" w-100 h-100" />
+                <Image src={iPhone15} alt="Description of the image" className=" w-100 h-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-4 phone-mt-5">
@@ -407,7 +407,7 @@ const Case_acad = () => {
             </div>
 
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 keybg" data-aos="fade-right" data-aos-delay="300">
-              <Image src={acadkey1} alt="" className="case_d_img" />
+              <Image src={acadkey1} alt="Description of the image" className="case_d_img" />
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key" data-aos="fade-left" data-aos-delay="300">
               <div>
@@ -476,7 +476,7 @@ const Case_acad = () => {
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <Image src={acadkey2} alt="" className="case_d_right_img" />
+              <Image src={acadkey2} alt="Description of the image" className="case_d_right_img" />
             </div>
           </div>
         </div>
@@ -514,22 +514,22 @@ const Case_acad = () => {
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2 optimized_img">
             <div class="col text-center">
               <div class="p-3">
-                <Image src={acadoptimized1.src} />
+                <Image src={acadoptimized1.src} alt="Description of the image" />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={acadoptimized2.src} />
+                <Image src={acadoptimized2.src} alt="Description of the image" />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={acadoptimized3.src} />
+                <Image src={acadoptimized3.src} alt="Description of the image" />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={acadoptimized4.src} />
+                <Image src={acadoptimized4.src} alt="Description of the image" />
               </div>
             </div>
           </div>
@@ -564,42 +564,42 @@ const Case_acad = () => {
               <div className="row row-cols-2 row-cols-lg-2 g-5 g-lg-5">
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_mongo1} alt="" className="w-100" />
+                    <Image src={case_d_mongo1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_ex} alt="" className="w-100" />
+                    <Image src={case_d_ex} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_react1} alt="" className="w-100" />
+                    <Image src={case_d_react1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_node1} alt="" className="w-100" />
+                    <Image src={case_d_node1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_python} alt="" className="w-100" />
+                    <Image src={case_d_python} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_html1} alt="" className="w-100" />
+                    <Image src={case_d_html1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_flutter1} alt="" className="w-100" />
+                    <Image src={case_d_flutter1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_aws1} alt="" className="w-100" />
+                    <Image src={case_d_aws1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
               </div>
@@ -695,7 +695,7 @@ const Case_acad = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
               <div className="case_d_con">
-                <Image src={common_contact} alt="" className="w-100" />
+                <Image src={common_contact} alt="Description of the image" className="w-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">

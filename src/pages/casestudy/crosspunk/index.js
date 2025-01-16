@@ -70,7 +70,7 @@ const Crosspunk = () => {
                             {/* <div className="work-area-lower-side"> */}
                             <div className="work-lower-left col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-right" data-aos-delay="300">
                                 <div className="work-area-logo">
-                                    <Image className="work-logo" src={crosspunk} alt="" />
+                                    <Image className="work-logo" src={crosspunk} alt="Description of the image" />
                                 </div>
                                 <h1 className="work-area-lower-heading">
                                     CrossPunk: A Deep Dive into Crafting a
@@ -82,7 +82,7 @@ const Crosspunk = () => {
                                 </p>
                                 <div className="work-area-log">
                                     <Link className="work-area-lower-anchor-blue" href="www.OnlineKorp.com">
-                                        <Image src={planet} /> www.crosspunk.com
+                                        <Image src={planet} alt="Description of the image" /> www.crosspunk.com
                                     </Link>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@ const Crosspunk = () => {
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-                            <Image className="case_d_right_img_dashboard" src={crosspunks} alt="" />
+                            <Image className="case_d_right_img_dashboard" src={crosspunks} alt="Description of the image" />
                         </div>
                     </div>
                 </div>
@@ -338,7 +338,7 @@ const Crosspunk = () => {
                         </div>
                         <div className="col-12 col-lg-8 col-md-12 col-sm-12 d-flex justify-content-center mt-md-5 mb-md-5 mb-sm-5 text-center">
                             {/* <div className="img_set"> */}
-                            <Image src={crossMacBook} alt="" className=" w-100 h-100" />
+                            <Image src={crossMacBook} alt="Description of the image" className=" w-100 h-100" />
                             {/* </div> */}
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-4 phone-mt-5">
@@ -369,7 +369,7 @@ const Crosspunk = () => {
                         </div>
 
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 keybg" data-aos="fade-right" data-aos-delay="300">
-                            <Image src={crosspunk1} alt="" className="case_d_img" />
+                            <Image src={crosspunk1} alt="Description of the image" className="case_d_img" />
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key" data-aos="fade-left" data-aos-delay="300">
                             <div>
@@ -424,7 +424,7 @@ const Crosspunk = () => {
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 right_img" data-aos="fade-left" data-aos-delay="300">
-                            <Image src={crosspunk2} alt="" className="case_d_right_img_dashboard" />
+                            <Image src={crosspunk2} alt="Description of the image" className="case_d_right_img_dashboard" />
                         </div>
                     </div>
                 </div>
@@ -464,22 +464,22 @@ const Crosspunk = () => {
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2">
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized1.src} /> 
+                                <Image src={tracoptimized1.src} alt="Description of the image" /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized2.src} /> 
+                                <Image src={tracoptimized2.src} alt="Description of the image" /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized3.src} /> 
+                                <Image src={tracoptimized3.src} alt="Description of the image" /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized4.src} /> 
+                                <Image src={tracoptimized4.src} alt="Description of the image" /> 
                             </div>
                         </div>
                     </div>
@@ -513,32 +513,32 @@ const Crosspunk = () => {
                             <div className="row row-cols-2 row-cols-lg-2 g-5 g-lg-5">
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_flutter} alt="" className="w-100" />
+                                        <Image src={case_d_flutter} alt="Description of the image" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_php} alt="" className="w-100" />
+                                        <Image src={case_d_php} alt="Description of the image" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_html} alt="" className="w-100" />
+                                        <Image src={case_d_html} alt="Description of the image" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_bootstrap} alt="" className="w-100" />
+                                        <Image src={case_d_bootstrap} alt="Description of the image" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_fire} alt="" className="w-100" />
+                                        <Image src={case_d_fire} alt="Description of the image" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_aws1} alt="" className="w-100" />
+                                        <Image src={case_d_aws1} alt="Description of the image" className="w-100" />
                                     </div>
                                 </div>
                             </div>
@@ -634,7 +634,7 @@ const Crosspunk = () => {
                     <div className="row">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
                             <div className="case_d_con">
-                                <Image src={common_contact} alt="" className="w-100" />
+                                <Image src={common_contact} alt="Description of the image" className="w-100" />
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">

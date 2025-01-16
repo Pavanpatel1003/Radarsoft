@@ -71,7 +71,7 @@ const Case_details = () => {
               {/* <div className="work-area-lower-side"> */}
               <div className="work-lower-left col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-right" data-aos-delay="300">
                 <div className="work-area-logo">
-                  <Image className="work-logo" src={work_ogo.src} alt="" />
+                  <Image className="work-logo" src={work_ogo.src} alt="Description of the image" />
                 </div>
                 <h1 className="work-area-lower-heading">
                   Abhyan is an Indian e-learning <br />
@@ -90,7 +90,7 @@ const Case_details = () => {
                     className="work-area-lower-anchor-blue"
                     href="https://abhyan.in/"
                   >
-                    <Image src={planet.src} /> www.abhyan.in
+                    <Image src={planet.src} alt="Description of the image" /> www.abhyan.in
                   </Link>
                 </div>
               </div>
@@ -215,7 +215,7 @@ const Case_details = () => {
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <Image className="case_d_right_img" src={case_d.src} alt="" />
+              <Image className="case_d_right_img" src={case_d.src} alt="Description of the image" />
             </div>
           </div>
         </div>
@@ -366,7 +366,7 @@ const Case_details = () => {
             <div className="col-12 col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center mt-md-5 mb-md-5 mb-sm-5 text-center">
               <div className="img_set">
                 <Image
-                  src={case_d_Empowering_real.src} alt="" className=" w-100 h-100"
+                  src={case_d_Empowering_real.src} alt="Description of the image" className=" w-100 h-100"
                 />
               </div>
             </div>
@@ -403,7 +403,7 @@ const Case_details = () => {
             </div>
 
             <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-right" data-aos-delay="300">
-              <Image src={user.src} alt="" className="case_d_img" />
+              <Image src={user.src} alt="Description of the image" className="case_d_img" />
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key" data-aos="fade-left" data-aos-delay="300" >
               <div>
@@ -470,7 +470,7 @@ const Case_details = () => {
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <Image src={case_d.src} alt="" className="case_d_right_img" />
+              <Image src={case_d.src} alt="Description of the image" className="case_d_right_img" />
             </div>
           </div>
         </div>
@@ -509,22 +509,22 @@ const Case_details = () => {
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2 foursimage">
             <div class="col text-center">
               <div class="p-3">
-                <Image src={optimized1.src} />
+                <Image src={optimized1.src} alt="Description of the image"  />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={optimized2.src} />
+                <Image src={optimized2.src} alt="Description of the image"  />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={optimized3.src} />
+                <Image src={optimized3.src} alt="Description of the image"  />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={optimized4.src} />
+                <Image src={optimized4.src} alt="Description of the image"  />
               </div>
             </div>
           </div>
@@ -559,27 +559,27 @@ const Case_details = () => {
               <div className="row row-cols-2 row-cols-lg-2 g-5 g-lg-5">
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_mongo1.src} alt="" className="w-100" />
+                    <Image src={case_d_mongo1.src} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_php1.src} alt="" className="w-100" />
+                    <Image src={case_d_php1.src} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_html1.src} alt="" className="w-100" />
+                    <Image src={case_d_html1.src} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_aws1.src} alt="" className="w-100" />
+                    <Image src={case_d_aws1.src} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_react1.src} alt="" className="w-100" />
+                    <Image src={case_d_react1.src} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
 
@@ -587,17 +587,17 @@ const Case_details = () => {
 
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_node1.src} alt="" className="w-100" />
+                    <Image src={case_d_node1.src} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_flutter1.src} alt="" className="w-100" />
+                    <Image src={case_d_flutter1.src} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_js1.src} alt="" className="w-100" />
+                    <Image src={case_d_js1.src} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
               </div>
@@ -693,7 +693,7 @@ const Case_details = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
               <div className="case_d_con">
-                <Image src={common_contact.src} alt="" className="w-100" />
+                <Image src={common_contact.src} alt="Description of the image" className="w-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">

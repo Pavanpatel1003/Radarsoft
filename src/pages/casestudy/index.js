@@ -123,7 +123,7 @@ const CaseStudy = () => {
             <div className="col" data-aos="fade-right" data-aos-delay="300">
               <div className="case-card">
                 <div>
-                  <Image src={case1.src}  alt="" className="w-100" />
+                  <Image src={case1.src}  alt="Description of the image" className="w-100" />
                 </div>
                 <div className="case-btn-set d-none">
                   <Link className="case-edtech-btn" href="">
@@ -135,7 +135,7 @@ const CaseStudy = () => {
                 </div>
                 <div className="case-card-head text-head">
                   <div className="mb-15">
-                    <Image src={case1small.src}  alt="" />
+                    <Image src={case1small.src}  alt="Description of the image" />
                   </div>
                   <h4>
                     Abhyan - Hub for students & <br />professionals to learn new skills
@@ -153,7 +153,7 @@ const CaseStudy = () => {
             <div className="col" data-aos="fade-left" data-aos-delay="300">
               <div className="case-card">
                 <div>
-                  <Image src={case2.src}  alt="" className="w-100" />
+                  <Image src={case2.src}  alt="Description of the image" className="w-100" />
                 </div>
                 <div className="case-btn-set d-none">
                   <Link className="case-edtech-btn" href="">
@@ -165,7 +165,7 @@ const CaseStudy = () => {
                 </div>
                 <div className="case-card-head text-head">
                 <div>
-                    <Image src={case2small.src}  alt="" />
+                    <Image src={case2small.src}  alt="Description of the image" />
                   </div>
                   <h4>
                     Trac91 - is a a one-step solution for all <br />online shopping
@@ -184,7 +184,7 @@ const CaseStudy = () => {
             <div className="col" data-aos="fade-right" data-aos-delay="300">
               <div className="case-card">
                 <div>
-                  <Image src={case3.src}  alt="" className="w-100" />
+                  <Image src={case3.src}  alt="Description of the image" className="w-100" />
                 </div>
                 <div className="case-btn-set d-none">
                   <Link className="case-edtech-btn" href="">
@@ -196,7 +196,7 @@ const CaseStudy = () => {
                 </div>
                 <div className="case-card-head text-head">
                 <div>
-                    <Image src={case3small.src}  alt="" />
+                    <Image src={case3small.src}  alt="Description of the image" />
                   </div>
                   <h4>
                     AcadSpace - Google Maps for Career Prep Empowering <br /> Students and Supporting Schools
@@ -214,7 +214,7 @@ const CaseStudy = () => {
             <div className="col" data-aos="fade-up" data-aos-delay="300">
               <div className="case-card">
                 <div>
-                  <Image src={case4.src}  alt="" className="w-100" />
+                  <Image src={case4.src}  alt="Description of the image" className="w-100" />
                 </div>
                 <div className="case-btn-set d-none">
                   <Link className="case-edtech-btn" href="">
@@ -226,7 +226,7 @@ const CaseStudy = () => {
                 </div>
                 <div className="case-card-head text-head">
                 <div>
-                    <Image src={case4small.src}  alt="" />
+                    <Image src={case4small.src}  alt="Description of the image" />
                   </div>
                   <h4>
                     OnlineKorp - Your Trusted Partner for Tailored Digital Solutions to Elevate Your Business
@@ -244,7 +244,7 @@ const CaseStudy = () => {
             <div className="col" data-aos="fade-right" data-aos-delay="300">
               <div className="case-card">
                 <div>
-                  <Image src={case5.src}  alt="" className="w-100" />
+                  <Image src={case5.src}  alt="Description of the image" className="w-100" />
                 </div>
                 <div className="case-btn-set d-none">
                   <Link className="case-edtech-btn" href="">
@@ -256,7 +256,7 @@ const CaseStudy = () => {
                 </div>
                 <div className="case-card-head text-head">
                 <div>
-                    <Image src={case5small.src}  alt="" />
+                    <Image src={case5small.src}  alt="Description of the image" />
                   </div>
                   <h4>
                     Bajaj Allianz - Empowering Businesses with Performance Tracking and Goal Management
@@ -274,7 +274,7 @@ const CaseStudy = () => {
             <div className="col" data-aos="fade-up" data-aos-delay="300">
               <div className="case-card">
                 <div>
-                  <Image src={case6.src}  alt="" className="w-100" />
+                  <Image src={case6.src}  alt="Description of the image" className="w-100" />
                 </div>
                 <div className="case-btn-set d-none">
                   <Link className="case-edtech-btn" href="">
@@ -286,7 +286,7 @@ const CaseStudy = () => {
                 </div>
                 <div className="case-card-head text-head">
                 <div>
-                    <Image src={case6small.src}  alt="" />
+                    <Image src={case6small.src}  alt="Description of the image" />
                   </div>
                   <h4>
                     Endura Fitness - Transforming Fitness Journeys with Personalized Guidance and Community Support
@@ -304,7 +304,7 @@ const CaseStudy = () => {
             <div className="col" data-aos="fade-right" data-aos-delay="300">
               <div className="case-card">
                 <div>
-                  <Image src={case7.src}  alt="" className="w-100" />
+                  <Image src={case7.src}  alt="Description of the image" className="w-100" />
                 </div>
                 <div className="case-btn-set d-none">
                   <Link className="case-edtech-btn" href="">
@@ -316,7 +316,7 @@ const CaseStudy = () => {
                 </div>
                 <div className="case-card-head text-head">
                 <div>
-                    <Image src={case7small.src}  alt="" />
+                    <Image src={case7small.src}  alt="Description of the image" />
                   </div>
                   <h4>
                     CrossPunk - A Deep Dive into Crafting a Puzzle Adventure That Challenges Minds and Ignites Creativity
@@ -334,7 +334,7 @@ const CaseStudy = () => {
             <div className="col" data-aos="fade-up" data-aos-delay="300">
               <div className="case-card">
                 <div>
-                  <Image src={case8.src}  alt="" className="w-100" />
+                  <Image src={case8.src}  alt="Description of the image" className="w-100" />
                 </div>
                 <div className="case-btn-set d-none">
                   <Link className="case-edtech-btn" href="">
@@ -346,7 +346,7 @@ const CaseStudy = () => {
                 </div>
                 <div className="case-card-head text-head">
                 <div>
-                    <Image src={case8small.src}  alt="" />
+                    <Image src={case8small.src}  alt="Description of the image" />
                   </div>
                   <h4>
                     Vacay Sitters - Your Trusted Partner in Providing Care for Your Pets and Home When Life Takes You Away

@@ -252,7 +252,7 @@ const Staff = () => {
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 digital_relative" data-aos="fade-left" data-aos-delay="300">
               <div className="staff_sec_bg">
-                <Image src={staffmember.src}  alt="" className="w-100" />
+                <Image src={staffmember.src}  alt="Description of the image" className="w-100" />
               </div>
             </div>
           </div>
@@ -415,7 +415,7 @@ const Staff = () => {
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-7 digital_relative" data-aos="fade-left" data-aos-delay="300">
               <div className="our_img">
-                <Image src={our.src}  alt="" className="w-100" />
+                <Image src={our.src}  alt="Description of the image" className="w-100" />
               </div>
             </div>
           </div>
@@ -435,109 +435,109 @@ const Staff = () => {
               <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3 g-lg-4">
                 <div class="col">
                   <div class="tools">
-                    <Image src={react} alt="" />
+                    <Image src={react} alt="Description of the image" />
                     <h5>Reactjs</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={angular} alt="" />
+                    <Image src={angular} alt="Description of the image" />
                     <h5>Angularjs</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={express} alt="" />
+                    <Image src={express} alt="Description of the image" />
                     <h5>Expressjs</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={js} alt="" />
+                    <Image src={js} alt="Description of the image" />
                     <h5>Nodejs</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={JavaScript} alt="" />
+                    <Image src={JavaScript} alt="Description of the image" />
                     <h5>JavaScript</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={flutter} alt="" />
+                    <Image src={flutter} alt="Description of the image" />
                     <h5>Flutter</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={linux} alt="" />
+                    <Image src={linux} alt="Description of the image" />
                     <h5>Linux</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={Python} alt="" />
+                    <Image src={Python} alt="Description of the image" />
                     <h5>Python</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={php} alt="" />
+                    <Image src={php} alt="Description of the image" />
                     <h5>Php</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={mongodb} alt="" />
+                    <Image src={mongodb} alt="Description of the image" />
                     <h5>MongoDB</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={apache} alt="" />
+                    <Image src={apache} alt="Description of the image" />
                     <h5>Apache</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={redis} alt="" />
+                    <Image src={redis} alt="Description of the image" />
                     <h5>Redis</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={java} alt="" />
+                    <Image src={java} alt="Description of the image" />
                     <h5>Java</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={PostGreSQL} alt="" />
+                    <Image src={PostGreSQL} alt="Description of the image" />
                     <h5>PostGreSQL</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={mysql} alt="" />
+                    <Image src={mysql} alt="Description of the image" />
                     <h5>MySQL</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={AmazonWeb} alt="" />
+                    <Image src={AmazonWeb} alt="Description of the image" />
                     <h5>AWS</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={google} alt="" />
+                    <Image src={google} alt="Description of the image" />
                     <h5>Google Cloud</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={azure} alt="" />
+                    <Image src={azure} alt="Description of the image" />
                     <h5>Azure</h5>
                   </div>
                 </div>
@@ -554,7 +554,7 @@ const Staff = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300" >
               <div className="case_d_con">
-                <Image src={common_contact.src}  alt="" className="w-100" />
+                <Image src={common_contact.src}  alt="Description of the image" className="w-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">

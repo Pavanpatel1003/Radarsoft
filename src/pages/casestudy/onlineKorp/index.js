@@ -74,7 +74,7 @@ const Case_onlineKorp = () => {
                             {/* <div className="work-area-lower-side"> */}
                             <div className="work-lower-left col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-right" data-aos-delay="300">
                                 <div className="work-area-logo">
-                                    <Image className="work-logo" src={acad} alt="" />
+                                    <Image className="work-logo" src={acad} alt="Description of the image" />
                                 </div>
                                 <h1 className="work-area-lower-heading">
                                     OnlineKorp Your Digital <br />Corporate Service Provider
@@ -89,7 +89,7 @@ const Case_onlineKorp = () => {
                                 </p>
                                 <div className="work-area-log">
                                     <Link className="work-area-lower-anchor-blue" href="www.OnlineKorp.com">
-                                        <Image src={planet} /> www.OnlineKorp.com
+                                        <Image src={planet} alt="Description of the image" /> www.OnlineKorp.com
                                     </Link>
                                 </div>
                             </div>
@@ -208,7 +208,7 @@ const Case_onlineKorp = () => {
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-                            <Image className="case_d_right_img_dashboard" src={onlineKrops} alt="" />
+                            <Image className="case_d_right_img_dashboard" src={onlineKrops} alt="Description of the image" />
                         </div>
                     </div>
                 </div>
@@ -361,7 +361,7 @@ const Case_onlineKorp = () => {
                         </div>
                         <div className="col-12 col-lg-8 col-md-12 col-sm-12 d-flex justify-content-center mt-md-5 mb-md-5 mb-sm-5 text-center">
                             {/* <div className="img_set"> */}
-                            <Image src={MacBookpro} alt="" className=" w-100 h-100" />
+                            <Image src={MacBookpro} alt="Description of the image" className=" w-100 h-100" />
                             {/* </div> */}
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-4 phone-mt-5">
@@ -401,7 +401,7 @@ const Case_onlineKorp = () => {
                         </div>
 
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 keybg" data-aos="fade-right" data-aos-delay="300">
-                            <Image src={onlineKrop1} alt="" className="case_d_img" />
+                            <Image src={onlineKrop1} alt="Description of the image" className="case_d_img" />
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key" data-aos="fade-left" data-aos-delay="300">
                             <div>
@@ -464,7 +464,7 @@ const Case_onlineKorp = () => {
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-                            <Image src={onlineKrop2} alt="" className="case_d_right_img_dashboard" />
+                            <Image src={onlineKrop2} alt="Description of the image" className="case_d_right_img_dashboard" />
                         </div>
                     </div>
                 </div>
@@ -504,22 +504,22 @@ const Case_onlineKorp = () => {
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2">
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized1.src} /> 
+                                <Image src={tracoptimized1.src} alt="Description of the image"  /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized2.src} /> 
+                                <Image src={tracoptimized2.src} alt="Description of the image"  /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized3.src} /> 
+                                <Image src={tracoptimized3.src} alt="Description of the image"  /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized4.src} /> 
+                                <Image src={tracoptimized4.src} alt="Description of the image"  /> 
                             </div>
                         </div>
                     </div>
@@ -553,32 +553,32 @@ const Case_onlineKorp = () => {
                             <div className="row row-cols-2 row-cols-lg-2 g-5 g-lg-5">
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_node1} alt="" className="w-100" />
+                                        <Image src={case_d_node1} alt="Description of the image" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_ex} alt="" className="w-100" />
+                                        <Image src={case_d_ex} alt="Description of the image" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_aws1} alt="" className="w-100" />
+                                        <Image src={case_d_aws1} alt="Description of the image" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_html1} alt="" className="w-100" />
+                                        <Image src={case_d_html1} alt="Description of the image" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_js1} alt="" className="w-100" />
+                                        <Image src={case_d_js1} alt="Description of the image" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_mongo1} alt="" className="w-100" />
+                                        <Image src={case_d_mongo1} alt="Description of the image" className="w-100" />
                                     </div>
                                 </div>
                             </div>
@@ -674,7 +674,7 @@ const Case_onlineKorp = () => {
                     <div className="row">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
                             <div className="case_d_con">
-                                <Image src={common_contact} alt="" className="w-100" />
+                                <Image src={common_contact} alt="Description of the image" className="w-100" />
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">

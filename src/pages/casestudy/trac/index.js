@@ -75,7 +75,7 @@ const Case_trac = () => {
               {/* <div className="work-area-lower-side"> */}
               <div className="work-lower-left col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-right" data-aos-delay="300">
                 <div className="work-area-logo">
-                  <Image className="work-logo" src={trac} alt="" />
+                  <Image className="work-logo" src={trac} alt="Description of the image" />
                 </div>
                 <h1 className="work-area-lower-heading">
                   Trac91 is a a one-step solution <br /> for all online shopping order<br />
@@ -96,7 +96,7 @@ const Case_trac = () => {
                     className="work-area-lower-anchor-blue"
                     href="https://trac91.com/"
                   >
-                    <Image src={planet} /> www.trac91.com
+                    <Image src={planet} alt="Description of the image" /> www.trac91.com
                   </Link>
                 </div>
               </div>
@@ -213,7 +213,7 @@ const Case_trac = () => {
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <Image className="case_d_right_img" src={tracyc} alt="" />
+              <Image className="case_d_right_img" src={tracyc} alt="Description of the image" />
             </div>
           </div>
         </div>
@@ -369,7 +369,7 @@ const Case_trac = () => {
             </div>
             <div className="col-12 col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center mt-md-5 mb-md-5 mb-sm-5 text-center">
               <div className="img_set">
-                <Image src={traccen} alt="" className=" w-100 h-100" />
+                <Image src={traccen} alt="Description of the image" className=" w-100 h-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-4 phone-mt-5">
@@ -407,7 +407,7 @@ const Case_trac = () => {
             </div>
 
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 keybg" data-aos="fade-right" data-aos-delay="300">
-              <Image src={keytrac1} alt="" className="case_d_img" />
+              <Image src={keytrac1} alt="Description of the image" className="case_d_img" />
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key" data-aos="fade-left" data-aos-delay="300">
               <div>
@@ -488,7 +488,7 @@ const Case_trac = () => {
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <Image src={keytrac2} alt="" className="case_d_right_img" />
+              <Image src={keytrac2} alt="Description of the image" className="case_d_right_img" />
             </div>
           </div>
         </div>
@@ -528,22 +528,22 @@ const Case_trac = () => {
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2 foursimage">
             <div class="col text-center">
               <div class="p-3">
-                <Image src={tracoptimized1.src} /> 
+                <Image src={tracoptimized1.src} alt="Description of the image"  /> 
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={tracoptimized2.src} /> 
+                <Image src={tracoptimized2.src} alt="Description of the image"  /> 
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={tracoptimized3.src} /> 
+                <Image src={tracoptimized3.src} alt="Description of the image"  /> 
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={tracoptimized4.src} /> 
+                <Image src={tracoptimized4.src} alt="Description of the image"  /> 
               </div>
             </div>
           </div>
@@ -578,43 +578,43 @@ const Case_trac = () => {
               <div className="row row-cols-2 row-cols-lg-2 g-5 g-lg-5">
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_mongo1} alt="" className="w-100" />
+                    <Image src={case_d_mongo1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_react1} alt="" className="w-100" />
+                    <Image src={case_d_react1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_ex} alt="" className="w-100" />
+                    <Image src={case_d_ex} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_aws1} alt="" className="w-100" />
+                    <Image src={case_d_aws1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_html} alt="" className="w-100" />
+                    <Image src={case_d_html} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_node1} alt="" className="w-100" />
+                    <Image src={case_d_node1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
 
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_css} alt="" className="w-100" />
+                    <Image src={case_d_css} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_js1} alt="" className="w-100" />
+                    <Image src={case_d_js1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
               </div>
@@ -710,7 +710,7 @@ const Case_trac = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
               <div className="case_d_con">
-                <Image src={common_contact} alt="" className="w-100" />
+                <Image src={common_contact} alt="Description of the image" className="w-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">

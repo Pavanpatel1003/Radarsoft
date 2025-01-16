@@ -72,9 +72,9 @@ const About = () => {
           <Image
             src={mobileBanner}
             className="w-100 h-auto d-lg-none d-block"
-            alt=""
+            alt="Description of the image"
           />
-          <Image className="w-100 h-100 d-lg-block d-none" src={aboutImg} alt="" />
+          <Image className="w-100 h-100 d-lg-block d-none" src={aboutImg} alt="Description of the image" />
         </div>
       </section>
 
@@ -140,7 +140,7 @@ const About = () => {
               innovation at every opportunity.
             </p>
             <div className="dedication-img d-none d-lg-block">
-              <Image src={dedication} alt="" />
+              <Image src={dedication} alt="Description of the image" />
             </div>
           </div>
           <div className="row px-lg-0 px-3">

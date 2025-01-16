@@ -360,7 +360,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <Image src={nbajaj} alt="" />
+                    <Image src={nbajaj} alt="Description of the image" />
                   </div>
                   <div
                     className="col"
@@ -370,7 +370,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <Image src={nlandt} alt="" />
+                    <Image src={nlandt} alt="Description of the image" />
                   </div>
                   <div
                     className="col"
@@ -380,7 +380,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <Image src={ntodo} alt="" />
+                    <Image src={ntodo} alt="Description of the image" />
                   </div>
                   <div
                     className="col"
@@ -390,7 +390,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <Image src={nrazor} alt="" />
+                    <Image src={nrazor} alt="Description of the image" />
                   </div>
                   <div
                     className="col"
@@ -400,7 +400,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <Image src={cat_logo} alt="" />
+                    <Image src={cat_logo} alt="Description of the image" />
                   </div>
                   <div
                     className="col"
@@ -410,7 +410,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <Image src={nyan} alt="" />
+                    <Image src={nyan} alt="Description of the image" />
                   </div>
                   <div
                     className="col"
@@ -420,7 +420,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <Image src={nacad} alt="" />
+                    <Image src={nacad} alt="Description of the image" />
                   </div>
                   <div
                     className="col"
@@ -430,7 +430,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <Image src={nbig} alt="" />
+                    <Image src={nbig} alt="Description of the image" />
                   </div>
                 </div>
               </div>

@@ -328,7 +328,7 @@ const Mobileapp = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={heathcare.src}  alt="" className="w-100" />
+                        <Image src={heathcare.src}  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-blue">
                         <h3>Healthcare</h3>
@@ -338,7 +338,7 @@ const Mobileapp = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Retail.src}  alt="" className="w-100" />
+                        <Image src={Retail.src}  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-green">
                         <h3>Retail & Ecommerce</h3>
@@ -348,7 +348,7 @@ const Mobileapp = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Education.src}  alt="" className="w-100" />
+                        <Image src={Education.src}  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-pink">
                         <h3>Education</h3>
@@ -358,7 +358,7 @@ const Mobileapp = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Realestate.src}  alt="" className="w-100" />
+                        <Image src={Realestate.src}  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-yellow">
                         <h3>Real Estate</h3>
@@ -368,7 +368,7 @@ const Mobileapp = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Event.src}  alt="" className="w-100" />
+                        <Image src={Event.src}  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-blue">
                         <h3>Events</h3>
@@ -378,7 +378,7 @@ const Mobileapp = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Finance.src}  alt="" className="w-100" />
+                        <Image src={Finance.src}  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-green">
                         <h3>Finance</h3>
@@ -388,7 +388,7 @@ const Mobileapp = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Food.src}  alt="" className="w-100" />
+                        <Image src={Food.src}  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-pink">
                         <h3>Food & Restaurants</h3>
@@ -398,7 +398,7 @@ const Mobileapp = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Media.src}  alt="" className="w-100" />
+                        <Image src={Media.src}  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-yellow">
                         <h3>Media & Entertainment</h3>
