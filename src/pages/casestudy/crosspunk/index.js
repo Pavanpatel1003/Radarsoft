@@ -464,22 +464,22 @@ const Crosspunk = () => {
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2">
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized1.src}></img>
+                                <Image src={tracoptimized1.src} /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized2.src}></img>
+                                <Image src={tracoptimized2.src} /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized3.src}></img>
+                                <Image src={tracoptimized3.src} /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized4.src}></img>
+                                <Image src={tracoptimized4.src} /> 
                             </div>
                         </div>
                     </div>

@@ -111,16 +111,16 @@ const Services = () => {
                 </div>
                 <div className="row row-cols-4 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 g-2 g-lg-3">
                   <div className="col">
-                    <Image src={figma.src} alt="Figma" />
+                    <Image src={figma.src}  alt="Figma" />
                   </div>
                   <div className="col">
-                    <Image src={ps.src} alt="Photoshop" />
+                    <Image src={ps.src}  alt="Photoshop" />
                   </div>
                   <div className="col">
-                    <Image src={xd.src} alt="Adobe XD" />
+                    <Image src={xd.src}  alt="Adobe XD" />
                   </div>
                   <div className="col">
-                    <Image src={ai.src} alt="Illustrator" />
+                    <Image src={ai.src}  alt="Illustrator" />
                   </div>
                 </div>
               </div>
@@ -144,16 +144,16 @@ const Services = () => {
                 </div>
                 <div className="row row-cols-4 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 g-2 g-lg-3">
                   <div className="col">
-                    <Image src={android.src} alt="Figma" />
+                    <Image src={android.src}  alt="Figma" />
                   </div>
                   <div className="col">
-                    <Image src={ios.src} alt="Photoshop" />
+                    <Image src={ios.src}  alt="Photoshop" />
                   </div>
                   <div className="col">
-                    <Image src={mobile3.src} alt="Adobe XD" />
+                    <Image src={mobile3.src}  alt="Adobe XD" />
                   </div>
                   <div className="col">
-                    <Image src={mobile4.src} alt="Illustrator" />
+                    <Image src={mobile4.src}  alt="Illustrator" />
                   </div>
                 </div>
               </div>
@@ -177,22 +177,22 @@ const Services = () => {
                 </div>
                 <div className="row row-cols-4 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 g-2 g-lg-3">
                   <div className="col">
-                    <Image src={html.src} alt="html" />
+                    <Image src={html.src}  alt="html" />
                   </div>
                   <div className="col">
-                    <Image src={css.src} alt="css" />
+                    <Image src={css.src}  alt="css" />
                   </div>
                   <div className="col">
-                    <Image src={javascript.src} alt="javascript" />
+                    <Image src={javascript.src}  alt="javascript" />
                   </div>
                   <div className="col">
-                    <Image src={bootstrap.src} alt="bootstrap" />
+                    <Image src={bootstrap.src}  alt="bootstrap" />
                   </div>
                   <div className="col">
-                    <Image src={react.src} alt="react" />
+                    <Image src={react.src}  alt="react" />
                   </div>
                   <div className="col">
-                    <Image src={angular.src} alt="angular" />
+                    <Image src={angular.src}  alt="angular" />
                   </div>
                 </div>
               </div>
@@ -215,32 +215,32 @@ const Services = () => {
                 <div className="row row-cols-4 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 g-2 g-lg-3">
                   <div className="col">
                     <div>
-                      <Image src={mysql.src} alt="mysql" />
+                      <Image src={mysql.src}  alt="mysql" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={php.src} alt="php" />
+                      <Image src={php.src}  alt="php" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={red.src} alt="red" />
+                      <Image src={red.src}  alt="red" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={java.src} alt="java" />
+                      <Image src={java.src}  alt="java" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={js.src} alt="js" />
+                      <Image src={js.src}  alt="js" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={mongodb.src} alt="mongodb" />
+                      <Image src={mongodb.src}  alt="mongodb" />
                     </div>
                   </div>
                 </div>
@@ -268,32 +268,32 @@ const Services = () => {
                 <div className="row row-cols-4 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 g-2 g-lg-3">
                   <div className="col">
                     <div>
-                      <Image src={digital1.src} alt="digital1" />
+                      <Image src={digital1.src}  alt="digital1" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={digital2.src} alt="digital2" />
+                      <Image src={digital2.src}  alt="digital2" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={github.src} alt="github" />
+                      <Image src={github.src}  alt="github" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={a.src} alt="a" />
+                      <Image src={a.src}  alt="a" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={aws.src} alt="aws" />
+                      <Image src={aws.src}  alt="aws" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={digital6.src} alt="digital6" />
+                      <Image src={digital6.src}  alt="digital6" />
                     </div>
                   </div>
                 </div>
@@ -317,22 +317,22 @@ const Services = () => {
                 <div className="row row-cols-4 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 g-2 g-lg-3">
                   <div className="col">
                     <div>
-                      <Image src={se.src} alt="se" />
+                      <Image src={se.src}  alt="se" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={cy.src} alt="cy" />
+                      <Image src={cy.src}  alt="cy" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={pen.src} alt="pen" />
+                      <Image src={pen.src}  alt="pen" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={redleg.src} alt="redleg" />
+                      <Image src={redleg.src}  alt="redleg" />
                     </div>
                   </div>
                 </div>
@@ -360,32 +360,32 @@ const Services = () => {
                 <div className="row row-cols-4 row-cols-sm-4 row-cols-md-5 row-cols-lg-6 g-2 g-lg-3">
                   <div className="col">
                     <div>
-                      <Image src={react.src} alt="react" />
+                      <Image src={react.src}  alt="react" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={angular.src} alt="angular" />
+                      <Image src={angular.src}  alt="angular" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={red.src} alt="red" />
+                      <Image src={red.src}  alt="red" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={java.src} alt="java" />
+                      <Image src={java.src}  alt="java" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={pen.src} alt="js" />
+                      <Image src={pen.src}  alt="js" />
                     </div>
                   </div>
                   <div className="col">
                     <div>
-                      <Image src={mongodb.src} alt="mongodb" />
+                      <Image src={mongodb.src}  alt="mongodb" />
                     </div>
                   </div>
                 </div>
@@ -402,7 +402,7 @@ const Services = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
               <div className="case_d_con">
-                <Image src={common_contact.src} alt="" className="w-100" />
+                <Image src={common_contact.src}  alt="" className="w-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">

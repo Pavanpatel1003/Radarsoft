@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 import case_d from "../../../../public/assets/media/case-details/case_d.png";
 import case_d_mongo1 from "../../../../public/assets/media/case-details/allicon/mongo.svg";
 import case_d_aws1 from "../../../../public/assets/media/case-details/allicon/aws.svg";
@@ -365,9 +366,7 @@ const Case_details = () => {
             <div className="col-12 col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center mt-md-5 mb-md-5 mb-sm-5 text-center">
               <div className="img_set">
                 <Image
-                  src={case_d_Empowering_real.src}
-                  alt=""
-                  className=" w-100 h-100"
+                  src={case_d_Empowering_real.src} alt="" className=" w-100 h-100"
                 />
               </div>
             </div>
@@ -406,7 +405,7 @@ const Case_details = () => {
             <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-right" data-aos-delay="300">
               <Image src={user.src} alt="" className="case_d_img" />
             </div>
-            <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key" data-aos="fade-left" data-aos-delay="300" data-aos="fade-left" data-aos-delay="300">
+            <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key" data-aos="fade-left" data-aos-delay="300" >
               <div>
                 <div className="sub-text-heading sub-text">
                   <h3>User Engagement</h3>
@@ -435,7 +434,7 @@ const Case_details = () => {
             </div>
           </div>
           <div className="row key_sec_row">
-            <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key" data-aos="fade-left" data-aos-delay="300" data-aos="fade-right" data-aos-delay="300">
+            <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key" data-aos="fade-left" data-aos-delay="300">
               <div>
                 <div className="sub-text-heading sub-text">
                   <h3>Interactive Quizzes</h3>
@@ -510,22 +509,22 @@ const Case_details = () => {
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2 foursimage">
             <div class="col text-center">
               <div class="p-3">
-                <Image src={optimized1.src}></img>
+                <Image src={optimized1.src} />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={optimized2.src}></img>
+                <Image src={optimized2.src} />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={optimized3.src}></img>
+                <Image src={optimized3.src} />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={optimized4.src}></img>
+                <Image src={optimized4.src} />
               </div>
             </div>
           </div>

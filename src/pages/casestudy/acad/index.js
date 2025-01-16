@@ -514,22 +514,22 @@ const Case_acad = () => {
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2 optimized_img">
             <div class="col text-center">
               <div class="p-3">
-                <Image src={acadoptimized1.src}></Image>
+                <Image src={acadoptimized1.src} />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={acadoptimized2.src}></Image>
+                <Image src={acadoptimized2.src} />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={acadoptimized3.src}></Image>
+                <Image src={acadoptimized3.src} />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={acadoptimized4.src}></Image>
+                <Image src={acadoptimized4.src} />
               </div>
             </div>
           </div>

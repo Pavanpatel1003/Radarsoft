@@ -199,7 +199,7 @@ const Digital = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 digital_relative" data-aos="fade-right" data-aos-delay="300">
               <div className="digital_sec_bg">
-                <Image src={digital.src} alt="" className="w-100" />
+                <Image src={digital.src}  alt="" className="w-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">
@@ -252,7 +252,7 @@ const Digital = () => {
                 <div className="digital-grid-container">
                   <div className="digital-grid-item">
                     <div className="digital_img">
-                      <Image src={mobileapp.src} alt="MongoDB" />
+                      <Image src={mobileapp.src}  alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -263,7 +263,7 @@ const Digital = () => {
                   </div>
                   <div className="digital-grid-item">
                     <div className="digital_img">
-                      <Image src={settings.src} alt="MongoDB" />
+                      <Image src={settings.src}  alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -274,7 +274,7 @@ const Digital = () => {
                   </div>
                   <div className="digital-grid-item bottom-set">
                     <div className="digital_img">
-                      <Image src={uiux.src} alt="MongoDB" />
+                      <Image src={uiux.src}  alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -285,7 +285,7 @@ const Digital = () => {
                   </div>
                   <div className="digital-grid-item bottom-set">
                     <div className="digital_img">
-                      <Image src={agile.src} alt="MongoDB" />
+                      <Image src={agile.src}  alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -296,7 +296,7 @@ const Digital = () => {
                   </div>
                   <div className="digital-grid-item">
                     <div className="digital_img">
-                      <Image src={AI.src} alt="MongoDB" />
+                      <Image src={AI.src}  alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -307,7 +307,7 @@ const Digital = () => {
                   </div>
                   <div className="digital-grid-item">
                     <div className="digital_img">
-                      <Image src={micro.src} alt="MongoDB" />
+                      <Image src={micro.src}  alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -318,7 +318,7 @@ const Digital = () => {
                   </div>
                   <div className="digital-grid-item">
                     <div className="digital_img">
-                      <Image src={webdevelopment.src} alt="MongoDB" />
+                      <Image src={webdevelopment.src}  alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -341,7 +341,7 @@ const Digital = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
               <div className="case_d_con">
-                <Image src={common_contact.src} alt="" className="w-100" />
+                <Image src={common_contact.src}  alt="" className="w-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">
@@ -407,7 +407,7 @@ const Digital = () => {
             <div className="col">
               <div>
                 <Image
-                  src={digitaltransformation1.src}
+                  src={digitaltransformation1.src} /
                   alt=""
                   className="w-100"
                 />
@@ -436,7 +436,7 @@ const Digital = () => {
             <div className="col">
               <div>
                 <Image
-                  src={digitaltransformation2.src}
+                  src={digitaltransformation2.src} /
                   alt=""
                   className="w-100"
                 />

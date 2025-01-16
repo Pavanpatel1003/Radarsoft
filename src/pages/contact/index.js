@@ -1,4 +1,5 @@
 import { useFormik } from "formik";
+import Image from "next/image";
 import Link from "next/link";
 import useValidationSchema from "@/components/validation/FormValidation";
 import axios from "axios";

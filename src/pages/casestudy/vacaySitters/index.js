@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import case_d from "../../../../public/assets/media/case-details/vacaysitters/key22.svg";
 import case_ds from "../../../../public/assets/media/case-details/vacaysitters/keyobject.svg";
 import case_d_flutter1 from "../../../../public/assets/media/case-details/allicon/flutter.svg";
@@ -333,8 +334,7 @@ const Case_vacay = () => {
                         <div className="col-12 col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center mb-md-5 mb-sm-5 text-center">
                             <div className="img_set">
                                 <Image
-                                    src={case_d_Empowering_real.src}
-                                    alt=""
+                                    src={case_d_Empowering_real.src} alt=""
                                     className=" w-100 h-100"
                                 />
                             </div>
@@ -459,22 +459,22 @@ const Case_vacay = () => {
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2 foursimage">
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={optimized1.src}></img>
+                                <Image src={optimized1.src} />
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={optimized2.src}></img>
+                                <Image src={optimized2.src} />
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={optimized3.src}></img>
+                                <Image src={optimized3.src} />
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={optimized4.src}></img>
+                                <Image src={optimized4.src} />
                             </div>
                         </div>
                     </div>

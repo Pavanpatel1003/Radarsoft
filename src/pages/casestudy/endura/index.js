@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import case_ds from "../../../../public/assets/media/case-details/endura/key2.svg";
 import case_d from "../../../../public/assets/media/case-details/endura/keyobject.svg";
 import case_d_flutter1 from "../../../../public/assets/media/case-details/allicon/flutter.svg";
@@ -73,7 +74,7 @@ const Case_endura = () => {
                             {/* <div className="work-area-lower-side"> */}
                             <div className="work-lower-left col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-right" data-aos-delay="300">
                                 <div className="work-area-logo">
-                                    <Image className="work-logo" src={work_ogo.src} alt="" />
+                                    <Image className="work-logo" src={work_ogo.src}  alt="" />
                                 </div>
                                 <h1 className="work-area-lower-heading">
                                     Endura Fitness: Transforming
@@ -202,7 +203,7 @@ const Case_endura = () => {
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-                            <Image className="case_d_right_img" src={case_ds.src} alt="" />
+                            <Image className="case_d_right_img" src={case_ds.src}  alt="" />
                         </div>
                     </div>
                 </div>
@@ -221,32 +222,32 @@ const Case_endura = () => {
                         </div>
                         <div class="process-container">
                             <div class="process-step research">
-                                <Image src={research.src} alt="Research Icon" />
+                                <Image src={research.src}  alt="Research Icon" />
                                 <p>Research</p>
                             </div>
                             <div class="process-arrow">&#8594;</div>
                             <div class="process-step design">
-                                <Image src={design.src} alt="Design Icon" />
+                                <Image src={design.src}  alt="Design Icon" />
                                 <p>Design</p>
                             </div>
                             <div class="process-arrow">&#8594;</div>
                             <div class="process-step development">
-                                <Image src={development.src} alt="Development Icon" />
+                                <Image src={development.src}  alt="Development Icon" />
                                 <p>Development</p>
                             </div>
                             <div class="process-arrow">&#8594;</div>
                             <div class="process-step testing">
-                                <Image src={testing.src} alt="Testing Icon" />
+                                <Image src={testing.src}  alt="Testing Icon" />
                                 <p>Testing</p>
                             </div>
                             <div class="process-arrow">&#8594;</div>
                             <div class="process-step marketing">
-                                <Image src={marketing.src} alt="Testing Icon" />
+                                <Image src={marketing.src}  alt="Testing Icon" />
                                 <p>Marketing</p>
                             </div>
                             <div class="process-arrow">&#8594;</div>
                             <div class="process-step support">
-                                <Image src={suppport.src} alt="Testing Icon" />
+                                <Image src={suppport.src}  alt="Testing Icon" />
                                 <p>Support</p>
                             </div>
                         </div>
@@ -254,7 +255,7 @@ const Case_endura = () => {
                             <div class="row text-center">
                                 <div class="col-md-2 col-sm-12">
                                     <div class="process-step research">
-                                        <Image src={research.src} alt="Research Icon" />
+                                        <Image src={research.src}  alt="Research Icon" />
                                         <p>Research</p>
                                     </div>
                                 </div>
@@ -263,7 +264,7 @@ const Case_endura = () => {
                                 </div>
                                 <div class="col-md-2 col-sm-12">
                                     <div class="process-step design">
-                                        <Image src={design.src} alt="Design Icon" />
+                                        <Image src={design.src}  alt="Design Icon" />
                                         <p>Design</p>
                                     </div>
                                 </div>
@@ -272,7 +273,7 @@ const Case_endura = () => {
                                 </div>
                                 <div class="col-md-2 col-sm-12">
                                     <div class="process-step development">
-                                        <Image src={development.src} alt="Development Icon" />
+                                        <Image src={development.src}  alt="Development Icon" />
                                         <p>Development</p>
                                     </div>
                                 </div>
@@ -281,7 +282,7 @@ const Case_endura = () => {
                                 </div>
                                 <div class="col-md-2 col-sm-12">
                                     <div class="process-step testing">
-                                        <Image src={testing.src} alt="Testing Icon" />
+                                        <Image src={testing.src}  alt="Testing Icon" />
                                         <p>Testing</p>
                                     </div>
                                 </div>
@@ -290,7 +291,7 @@ const Case_endura = () => {
                                 </div>
                                 <div class="col-md-2 col-sm-12">
                                     <div class="process-step marketing">
-                                        <Image src={firebase.src} alt="marketing Icon" />
+                                        <Image src={firebase.src}  alt="marketing Icon" />
                                         <p>Marketing</p>
                                     </div>
                                 </div>
@@ -299,7 +300,7 @@ const Case_endura = () => {
                                 </div>
                                 <div class="col-md-2 col-sm-12">
                                     <div class="process-step support">
-                                        <Image src={aws.src} alt="support Icon" />
+                                        <Image src={aws.src}  alt="support Icon" />
                                         <p>Support</p>
                                     </div>
                                 </div>
@@ -338,8 +339,7 @@ const Case_endura = () => {
                         <div className="col-12 col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center mb-md-5 mb-sm-5 text-center">
                             <div className="img_set">
                                 <Image
-                                    src={case_d_Empowering_real.src}
-                                    alt=""
+                                    src={case_d_Empowering_real.src}  alt=""
                                     className=" w-100 h-100"
                                 />
                             </div>
@@ -372,7 +372,7 @@ const Case_endura = () => {
                         </div>
 
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-right" data-aos-delay="300">
-                            <Image src={user.src} alt="" className="case_d_img" />
+                            <Image src={user.src}  alt="" className="case_d_img" />
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key" data-aos="fade-left" data-aos-delay="300">
                             <div>
@@ -423,7 +423,7 @@ const Case_endura = () => {
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-                            <Image src={case_d.src} alt="" className="case_d_right_img" />
+                            <Image src={case_d.src}  alt="" className="case_d_right_img" />
                         </div>
                     </div>
                 </div>
@@ -458,22 +458,22 @@ const Case_endura = () => {
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2 foursimage">
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={optimized1.src}></img>
+                                <Image src={optimized1.src} /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={optimized2.src}></img>
+                                <Image src={optimized2.src} /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={optimized3.src}></img>
+                                <Image src={optimized3.src} /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={optimized4.src}></img>
+                                <Image src={optimized4.src} /> 
                             </div>
                         </div>
                     </div>
@@ -502,32 +502,32 @@ const Case_endura = () => {
                             <div className="row row-cols-2 row-cols-lg-2 g-5 g-lg-5">
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_flutter1.src} alt="" className="w-100" />
+                                        <Image src={case_d_flutter1.src}  alt="" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_php1.src} alt="" className="w-100" />
+                                        <Image src={case_d_php1.src}  alt="" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={razorpay.src} alt="" className="w-100" />
+                                        <Image src={razorpay.src}  alt="" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={bootstrap.src} alt="" className="w-100" />
+                                        <Image src={bootstrap.src}  alt="" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={firebase.src} alt="" className="w-100" />
+                                        <Image src={firebase.src}  alt="" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={aws.src} alt="" className="w-100" />
+                                        <Image src={aws.src}  alt="" className="w-100" />
                                     </div>
                                 </div>
 
@@ -623,7 +623,7 @@ const Case_endura = () => {
                     <div className="row">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
                             <div className="case_d_con">
-                                <Image src={common_contact.src} alt="" className="w-100" />
+                                <Image src={common_contact.src}  alt="" className="w-100" />
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">

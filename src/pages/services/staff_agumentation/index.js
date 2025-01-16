@@ -252,7 +252,7 @@ const Staff = () => {
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 digital_relative" data-aos="fade-left" data-aos-delay="300">
               <div className="staff_sec_bg">
-                <Image src={staffmember.src} alt="" className="w-100" />
+                <Image src={staffmember.src}  alt="" className="w-100" />
               </div>
             </div>
           </div>
@@ -277,22 +277,22 @@ const Staff = () => {
             </div>
             <div class="staff-process-container">
               <div class="staff-process-step rightarrow research">
-                <Image src={acess.src} alt="Research Icon" />
+                <Image src={acess.src}  alt="Research Icon" />
                 <p>Access to Specialsed Talent</p>
               </div>
               <div class="process-arrow">&#8594;</div>
               <div class="staff-process-step rightarrow design">
-                <Image src={resource.src} alt="Design Icon" />
+                <Image src={resource.src}  alt="Design Icon" />
                 <p>Resource Selection</p>
               </div>
               <div class="process-arrow">&#8594;</div>
               <div class="staff-process-step rightarrow development">
-                <Image src={talent.src} alt="Development Icon" />
+                <Image src={talent.src}  alt="Development Icon" />
                 <p>Talent Onboarding</p>
               </div>
               <div class="process-arrow">&#8594;</div>
               <div class="staff-process-step rightarrow testing">
-                <Image src={initial.src} alt="Testing Icon" />
+                <Image src={initial.src}  alt="Testing Icon" />
                 <p>Ongoing Support and Management</p>
               </div>
             </div>
@@ -415,7 +415,7 @@ const Staff = () => {
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-7 digital_relative" data-aos="fade-left" data-aos-delay="300">
               <div className="our_img">
-                <Image src={our.src} alt="" className="w-100" />
+                <Image src={our.src}  alt="" className="w-100" />
               </div>
             </div>
           </div>
@@ -554,7 +554,7 @@ const Staff = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300" >
               <div className="case_d_con">
-                <Image src={common_contact.src} alt="" className="w-100" />
+                <Image src={common_contact.src}  alt="" className="w-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">
