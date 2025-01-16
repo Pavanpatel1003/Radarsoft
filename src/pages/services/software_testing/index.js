@@ -118,7 +118,7 @@ const Software_testing = () => {
       {/* service details banner section */}
       <section className="common_margin_space" data-aos="fade-up" data-aos-delay="300" >
         <div className="w-100 h-100 career_img">
-          <Image
+          <img
             className="w-100 d-lg-block"
             src={servicedetailsbanner}
             alt="Career Banner"
@@ -261,31 +261,31 @@ const Software_testing = () => {
               <div className="row">
                 <div className="grid-container">
                   <div className="grid-item">
-                    <Image src={selenium} alt="selenium" />
+                    <img src={selenium} alt="selenium" />
                   </div>
                   <div className="grid-item">
-                    <Image src={postman} alt="postman" />
+                    <img src={postman} alt="postman" />
                   </div>
                   <div className="grid-item">
-                    <Image src={appium} alt="appium" />
+                    <img src={appium} alt="appium" />
                   </div>
                   <div className="grid-item">
-                    <Image src={junit} alt="junit" />
+                    <img src={junit} alt="junit" />
                   </div>
                   <div className="grid-item">
-                    <Image src={jmeter} alt="jmeter" />
+                    <img src={jmeter} alt="jmeter" />
                   </div>
                   <div className="grid-item">
-                    <Image src={soapui} alt="soapui.js" />
+                    <img src={soapui} alt="soapui.js" />
                   </div>
                   <div className="grid-item">
-                    <Image src={cypress} alt="cypress" />
+                    <img src={cypress} alt="cypress" />
                   </div>
                   <div className="grid-item">
-                    <Image src={testigma} alt="testigma" />
+                    <img src={testigma} alt="testigma" />
                   </div>
                   <div className="grid-item">
-                    <Image src={jira} alt="Jira" />
+                    <img src={jira} alt="Jira" />
                   </div>
                 </div>
               </div>

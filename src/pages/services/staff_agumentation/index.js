@@ -121,7 +121,7 @@ const Staff = () => {
       {/* staff details banner section */}
       <section className="common_margin_space" data-aos="fade-up" data-aos-delay="300" >
         <div className="w-100 h-100 career_img">
-          <Image
+          <img
             className="w-100 d-lg-block"
             src={staffbanner}
             alt="Career Banner"
@@ -435,109 +435,109 @@ const Staff = () => {
               <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3 g-lg-4">
                 <div class="col">
                   <div class="tools">
-                    <Image src={react} alt="" />
+                    <img src={react} alt="" />
                     <h5>Reactjs</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={angular} alt="" />
+                    <img src={angular} alt="" />
                     <h5>Angularjs</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={express} alt="" />
+                    <img src={express} alt="" />
                     <h5>Expressjs</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={js} alt="" />
+                    <img src={js} alt="" />
                     <h5>Nodejs</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={JavaScript} alt="" />
+                    <img src={JavaScript} alt="" />
                     <h5>JavaScript</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={flutter} alt="" />
+                    <img src={flutter} alt="" />
                     <h5>Flutter</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={linux} alt="" />
+                    <img src={linux} alt="" />
                     <h5>Linux</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={Python} alt="" />
+                    <img src={Python} alt="" />
                     <h5>Python</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={php} alt="" />
+                    <img src={php} alt="" />
                     <h5>Php</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={mongodb} alt="" />
+                    <img src={mongodb} alt="" />
                     <h5>MongoDB</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={apache} alt="" />
+                    <img src={apache} alt="" />
                     <h5>Apache</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={redis} alt="" />
+                    <img src={redis} alt="" />
                     <h5>Redis</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={java} alt="" />
+                    <img src={java} alt="" />
                     <h5>Java</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={PostGreSQL} alt="" />
+                    <img src={PostGreSQL} alt="" />
                     <h5>PostGreSQL</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={mysql} alt="" />
+                    <img src={mysql} alt="" />
                     <h5>MySQL</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={AmazonWeb} alt="" />
+                    <img src={AmazonWeb} alt="" />
                     <h5>AWS</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={google} alt="" />
+                    <img src={google} alt="" />
                     <h5>Google Cloud</h5>
                   </div>
                 </div>
                 <div class="col">
                   <div class="tools">
-                    <Image src={azure} alt="" />
+                    <img src={azure} alt="" />
                     <h5>Azure</h5>
                   </div>
                 </div>

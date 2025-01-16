@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="col-12 col-md-6 col-lg-3 col-xl-3">
                 <div className="widget">
                   <Link href="#!">
-                    <Image
+                    <img
                       src={icon}
                       alt="BootstrapBrain Logo"
                       width="175"

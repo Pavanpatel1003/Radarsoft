@@ -69,12 +69,12 @@ const About = () => {
       {/* about banner section */}
       <section className="common_margin_space" data-aos="fade-up" data-aos-delay="300">
         <div className="w-100">
-          <Image
+          <img
             src={mobileBanner}
             className="w-100 h-auto d-lg-none d-block"
             alt=""
           />
-          <Image className="w-100 h-100 d-lg-block d-none" src={aboutImg} alt="" />
+          <img className="w-100 h-100 d-lg-block d-none" src={aboutImg} alt="" />
         </div>
       </section>
 
@@ -114,7 +114,7 @@ const About = () => {
               </div>
             </div>
             <div className="about-journey-right-side col-lg-6 col-md-12 col-12">
-              <Image
+              <img
                 className="about-journey-image img-journey-fluid w-100"
                 src={office}
                 alt="frr"
@@ -140,7 +140,7 @@ const About = () => {
               innovation at every opportunity.
             </p>
             <div className="dedication-img d-none d-lg-block">
-              <Image src={dedication} alt="" />
+              <img src={dedication} alt="" />
             </div>
           </div>
           <div className="row px-lg-0 px-3">
@@ -189,7 +189,7 @@ const About = () => {
               <div className="d-flex flex-column mt-3 gap-2">
                 <div className="py-2 d-flex gap-3 align-items-center">
                   <div>
-                    <Image src={listIcon} alt="list" />
+                    <img src={listIcon} alt="list" />
                   </div>
                   <p className="mb-0">
                     We believe in giving back and making a positive impact in
@@ -199,7 +199,7 @@ const About = () => {
 
                 <div className="py-2 d-flex gap-3 align-items-center">
                   <div>
-                    <Image src={listIcon} alt="list" />
+                    <img src={listIcon} alt="list" />
                   </div>
                   <p className="mb-0">
                     We prioritize the mental well-being of our team members.
@@ -208,7 +208,7 @@ const About = () => {
 
                 <div className="py-2 d-flex gap-3 align-items-center">
                   <div>
-                    <Image src={listIcon} alt="list" />
+                    <img src={listIcon} alt="list" />
                   </div>
                   <p className="mb-0">
                     We foster a supportive and inclusive work environment.
@@ -216,7 +216,7 @@ const About = () => {
                 </div>
                 <div className="py-2 d-flex gap-3 align-items-center">
                   <div>
-                    <Image src={listIcon} alt="list" />
+                    <img src={listIcon} alt="list" />
                   </div>
                   <p className="mb-0">
                     We believe in shared success & healthy team drive innovation
@@ -225,7 +225,7 @@ const About = () => {
                 </div>
                 <div className="py-2 d-flex gap-3 align-items-center">
                   <div>
-                    <Image src={listIcon} alt="list" />
+                    <img src={listIcon} alt="list" />
                   </div>
                   <p className="mb-0">
                     Every team member is valued and appreciated.
@@ -235,10 +235,10 @@ const About = () => {
             </div>
             <div className="core-value-right-side col-lg-6 col-12">
               <div className="core-value-img-1">
-                <Image className="img-core-1" src={core2} alt="frr" />
+                <img className="img-core-1" src={core2} alt="frr" />
               </div>
               <div className="core-value-img-2">
-                <Image className="img-core-2" src={core1} alt="frr" />
+                <img className="img-core-2" src={core1} alt="frr" />
               </div>
             </div>
           </div>
@@ -261,21 +261,21 @@ const About = () => {
             </div>
             <div className="col-lg-4 col-md-6 my-lg-0 my-3">
               <div className="claim-boxe-1">
-                <Image className="service img-fluid" src={code} alt="ewf" />
+                <img className="service img-fluid" src={code} alt="ewf" />
                 <h6>Code management system</h6>
                 <p>Our technical experts have a flair for developing.</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 my-lg-0 my-3">
               <div className="claim-boxe-2">
-                <Image className="service img-fluid" src={database} alt="ewf" />
+                <img className="service img-fluid" src={database} alt="ewf" />
                 <h6>Efficient database management</h6>
                 <p>Our technical experts have a flair for developing.</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 my-lg-0 my-3">
               <div className="claim-boxe-3">
-                <Image className="service img-fluid" src={skills} alt="ewf" />
+                <img className="service img-fluid" src={skills} alt="ewf" />
                 <h6>Multi-skilled professionals</h6>
                 <p>Our technical experts have a flair for developing.</p>
               </div>
@@ -297,56 +297,56 @@ const About = () => {
             </div>
             <div className="col-lg-3 col-md-6 my-lg-0 my-3">
               <div className="team-boxe-1">
-                <Image className="service img-fluid" src={CEO} alt="ewf" />
+                <img className="service img-fluid" src={CEO} alt="ewf" />
                 <div className="px-3 border py-3 team-title-heading  align-items-center">
                   <div className="team-sub-headding w-80">
                     <h6>Jeet vithalani</h6>
                     <p>CEO & Director</p>
                   </div>
                   <div className="w-20 d-flex justify-content-end">
-                    <Image src={lindIn} alt="logo" />
+                    <img src={lindIn} alt="logo" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 my-lg-0 my-3">
               <div className="team-boxe-1">
-                <Image className="service img-fluid" src={team1} alt="ewf" />
+                <img className="service img-fluid" src={team1} alt="ewf" />
                 <div className="px-3 border py-3 team-title-heading  align-items-center">
                   <div className="team-sub-headding w-80">
                     <h6>Jeet vithalani</h6>
                     <p>CEO & Director</p>
                   </div>
                   <div className="w-20 d-flex justify-content-end">
-                    <Image src={lindIn} alt="logo" />
+                    <img src={lindIn} alt="logo" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 my-lg-0 my-3">
               <div className="team-boxe-1">
-                <Image className="service img-fluid" src={team1} alt="ewf" />
+                <img className="service img-fluid" src={team1} alt="ewf" />
                 <div className="px-3 border py-3 team-title-heading  align-items-center">
                   <div className="team-sub-headding w-80">
                     <h6>Jeet vithalani</h6>
                     <p>CEO & Director</p>
                   </div>
                   <div className="w-20 d-flex justify-content-end">
-                    <Image src={lindIn} alt="logo" />
+                    <img src={lindIn} alt="logo" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 my-lg-0 my-3">
               <div className="team-boxe-1">
-                <Image className="service img-fluid" src={team1} alt="ewf" />
+                <img className="service img-fluid" src={team1} alt="ewf" />
                 <div className="px-3 border py-3 team-title-heading  align-items-center">
                   <div className="team-sub-headding w-80">
                     <h6>Jeet vithalani</h6>
                     <p>CEO & Director</p>
                   </div>
                   <div className="w-20 d-flex justify-content-end">
-                    <Image src={lindIn} alt="logo" />
+                    <img src={lindIn} alt="logo" />
                   </div>
                 </div>
               </div>
@@ -355,56 +355,56 @@ const About = () => {
           <div className="row mt-lg-4">
             <div className="col-lg-3 col-md-6 my-lg-0 my-3">
               <div className="team-boxe-1">
-                <Image className="service img-fluid" src={CEO} alt="ewf" />
+                <img className="service img-fluid" src={CEO} alt="ewf" />
                 <div className="px-3 border py-3 team-title-heading  align-items-center">
                   <div className="team-sub-headding w-80">
                     <h6>Jeet vithalani</h6>
                     <p>CEO & Director</p>
                   </div>
                   <div className="w-20 d-flex justify-content-end">
-                    <Image src={lindIn} alt="logo" />
+                    <img src={lindIn} alt="logo" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 my-lg-0 my-3">
               <div className="team-boxe-1">
-                <Image className="service img-fluid" src={team1} alt="ewf" />
+                <img className="service img-fluid" src={team1} alt="ewf" />
                 <div className="px-3 border py-3 team-title-heading  align-items-center">
                   <div className="team-sub-headding w-80">
                     <h6>Jeet vithalani</h6>
                     <p>CEO & Director</p>
                   </div>
                   <div className="w-20 d-flex justify-content-end">
-                    <Image src={lindIn} alt="logo" />
+                    <img src={lindIn} alt="logo" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 my-lg-0 my-3">
               <div className="team-boxe-1">
-                <Image className="service img-fluid" src={team1} alt="ewf" />
+                <img className="service img-fluid" src={team1} alt="ewf" />
                 <div className="px-3 border py-3 team-title-heading  align-items-center">
                   <div className="team-sub-headding w-80">
                     <h6>Jeet vithalani</h6>
                     <p>CEO & Director</p>
                   </div>
                   <div className="w-20 d-flex justify-content-end">
-                    <Image src={lindIn} alt="logo" />
+                    <img src={lindIn} alt="logo" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 my-lg-0 my-3">
               <div className="team-boxe-1">
-                <Image className="service img-fluid" src={team1} alt="ewf" />
+                <img className="service img-fluid" src={team1} alt="ewf" />
                 <div className="px-3 border py-3 team-title-heading  align-items-center">
                   <div className="team-sub-headding w-80">
                     <h6>Jeet vithalani</h6>
                     <p>CEO & Director</p>
                   </div>
                   <div className="w-20 d-flex justify-content-end">
-                    <Image src={lindIn} alt="logo" />
+                    <img src={lindIn} alt="logo" />
                   </div>
                 </div>
               </div>

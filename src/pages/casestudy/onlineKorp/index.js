@@ -74,7 +74,7 @@ const Case_onlineKorp = () => {
                             {/* <div className="work-area-lower-side"> */}
                             <div className="work-lower-left col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-right" data-aos-delay="300">
                                 <div className="work-area-logo">
-                                    <Image className="work-logo" src={acad} alt="" />
+                                    <img className="work-logo" src={acad} alt="" />
                                 </div>
                                 <h1 className="work-area-lower-heading">
                                     OnlineKorp Your Digital <br />Corporate Service Provider
@@ -89,7 +89,7 @@ const Case_onlineKorp = () => {
                                 </p>
                                 <div className="work-area-log">
                                     <Link className="work-area-lower-anchor-blue" href="www.OnlineKorp.com">
-                                        <Image src={planet} /> www.OnlineKorp.com
+                                        <img src={planet} /> www.OnlineKorp.com
                                     </Link>
                                 </div>
                             </div>
@@ -208,7 +208,7 @@ const Case_onlineKorp = () => {
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-                            <Image className="case_d_right_img_dashboard" src={onlineKrops} alt="" />
+                            <img className="case_d_right_img_dashboard" src={onlineKrops} alt="" />
                         </div>
                     </div>
                 </div>
@@ -232,32 +232,32 @@ const Case_onlineKorp = () => {
                         </div>
                         <div class="process-container">
                             <div class="process-step research">
-                                <Image src={research} alt="Research Icon" />
+                                <img src={research} alt="Research Icon" />
                                 <p>Research</p>
                             </div>
                             <div class="process-arrow">&#8594;</div>
                             <div class="process-step design">
-                                <Image src={design} alt="Design Icon" />
+                                <img src={design} alt="Design Icon" />
                                 <p>Design</p>
                             </div>
                             <div class="process-arrow">&#8594;</div>
                             <div class="process-step development">
-                                <Image src={development} alt="Development Icon" />
+                                <img src={development} alt="Development Icon" />
                                 <p>Development</p>
                             </div>
                             <div class="process-arrow">&#8594;</div>
                             <div class="process-step testing">
-                                <Image src={testing} alt="Testing Icon" />
+                                <img src={testing} alt="Testing Icon" />
                                 <p>Testing</p>
                             </div>
                             <div class="process-arrow">&#8594;</div>
                             <div class="process-step marketing">
-                                <Image src={marketing} alt="Testing Icon" />
+                                <img src={marketing} alt="Testing Icon" />
                                 <p>Marketing</p>
                             </div>
                             <div class="process-arrow">&#8594;</div>
                             <div class="process-step support">
-                                <Image src={suppport} alt="Testing Icon" />
+                                <img src={suppport} alt="Testing Icon" />
                                 <p>Support</p>
                             </div>
                         </div>
@@ -265,7 +265,7 @@ const Case_onlineKorp = () => {
                             <div class="row text-center">
                                 <div class="col-md-2 col-sm-12">
                                     <div class="process-step research">
-                                        <Image src={research} alt="Research Icon" />
+                                        <img src={research} alt="Research Icon" />
                                         <p>Research</p>
                                     </div>
                                 </div>
@@ -274,7 +274,7 @@ const Case_onlineKorp = () => {
                                 </div>
                                 <div class="col-md-2 col-sm-12">
                                     <div class="process-step design">
-                                        <Image src={design} alt="Design Icon" />
+                                        <img src={design} alt="Design Icon" />
                                         <p>Design</p>
                                     </div>
                                 </div>
@@ -283,7 +283,7 @@ const Case_onlineKorp = () => {
                                 </div>
                                 <div class="col-md-2 col-sm-12">
                                     <div class="process-step development">
-                                        <Image src={development} alt="Development Icon" />
+                                        <img src={development} alt="Development Icon" />
                                         <p>Development</p>
                                     </div>
                                 </div>
@@ -292,7 +292,7 @@ const Case_onlineKorp = () => {
                                 </div>
                                 <div class="col-md-2 col-sm-12">
                                     <div class="process-step testing">
-                                        <Image src={testing} alt="Testing Icon" />
+                                        <img src={testing} alt="Testing Icon" />
                                         <p>Testing</p>
                                     </div>
                                 </div>
@@ -301,7 +301,7 @@ const Case_onlineKorp = () => {
                                 </div>
                                 <div class="col-md-2 col-sm-12">
                                     <div class="process-step marketing">
-                                        <Image src={marketing} alt="marketing Icon" />
+                                        <img src={marketing} alt="marketing Icon" />
                                         <p>Marketing</p>
                                     </div>
                                 </div>
@@ -310,7 +310,7 @@ const Case_onlineKorp = () => {
                                 </div>
                                 <div class="col-md-2 col-sm-12">
                                     <div class="process-step support">
-                                        <Image src={suppport} alt="support Icon" />
+                                        <img src={suppport} alt="support Icon" />
                                         <p>Support</p>
                                     </div>
                                 </div>
@@ -361,7 +361,7 @@ const Case_onlineKorp = () => {
                         </div>
                         <div className="col-12 col-lg-8 col-md-12 col-sm-12 d-flex justify-content-center mt-md-5 mb-md-5 mb-sm-5 text-center">
                             {/* <div className="img_set"> */}
-                            <Image src={MacBookpro} alt="" className=" w-100 h-100" />
+                            <img src={MacBookpro} alt="" className=" w-100 h-100" />
                             {/* </div> */}
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-4 phone-mt-5">
@@ -401,7 +401,7 @@ const Case_onlineKorp = () => {
                         </div>
 
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 keybg" data-aos="fade-right" data-aos-delay="300">
-                            <Image src={onlineKrop1} alt="" className="case_d_img" />
+                            <img src={onlineKrop1} alt="" className="case_d_img" />
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key" data-aos="fade-left" data-aos-delay="300">
                             <div>
@@ -464,7 +464,7 @@ const Case_onlineKorp = () => {
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-                            <Image src={onlineKrop2} alt="" className="case_d_right_img_dashboard" />
+                            <img src={onlineKrop2} alt="" className="case_d_right_img_dashboard" />
                         </div>
                     </div>
                 </div>
@@ -553,32 +553,32 @@ const Case_onlineKorp = () => {
                             <div className="row row-cols-2 row-cols-lg-2 g-5 g-lg-5">
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_node1} alt="" className="w-100" />
+                                        <img src={case_d_node1} alt="" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_ex} alt="" className="w-100" />
+                                        <img src={case_d_ex} alt="" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_aws1} alt="" className="w-100" />
+                                        <img src={case_d_aws1} alt="" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_html1} alt="" className="w-100" />
+                                        <img src={case_d_html1} alt="" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_js1} alt="" className="w-100" />
+                                        <img src={case_d_js1} alt="" className="w-100" />
                                     </div>
                                 </div>
                                 <div className="col">
                                     <div className="img-shadow">
-                                        <Image src={case_d_mongo1} alt="" className="w-100" />
+                                        <img src={case_d_mongo1} alt="" className="w-100" />
                                     </div>
                                 </div>
                             </div>
@@ -674,7 +674,7 @@ const Case_onlineKorp = () => {
                     <div className="row">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
                             <div className="case_d_con">
-                                <Image src={common_contact} alt="" className="w-100" />
+                                <img src={common_contact} alt="" className="w-100" />
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">

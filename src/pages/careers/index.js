@@ -80,7 +80,7 @@ const Career = () => {
 
       <section className="common_margin_space" data-aos="fade-up" data-aos-delay="300">
         <div className="career_img">
-          <Image
+          <img
             src={careerBanner}
             alt="Career Banner"
             className="w-100"

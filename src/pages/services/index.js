@@ -79,7 +79,7 @@ const Services = () => {
       {/* service banner section */}
       <section className="common_margin_space" data-aos="fade-up" data-aos-delay="300">
         <div className="w-100 h-100 career_img">
-          <Image
+          <img
             className="w-100 d-lg-block"
             src={servicebanner}
             alt="Career Banner"
