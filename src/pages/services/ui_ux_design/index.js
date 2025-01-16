@@ -117,7 +117,7 @@ const Ui_ux = () => {
       {/* service details banner section */}
       <section className="common_margin_space" data-aos="fade-up" data-aos-delay="300" >
         <div className="w-100 h-100 career_img">
-          <img
+          <Image
             className="w-100 d-lg-block"
             src={uiuxbanner}
             alt="Career Banner"
@@ -240,7 +240,7 @@ const Ui_ux = () => {
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
               <div>
-                <img
+                <Image
                   src={servicedetails1.src}
                   alt="servicedetails"
                   className="w-100"
@@ -264,31 +264,31 @@ const Ui_ux = () => {
               <div className="row">
                 <div className="grid-container">
                   <div className="grid-item">
-                    <img src={figma.src} alt="figma" />
+                    <Image src={figma.src} alt="figma" />
                   </div>
                   <div className="grid-item">
-                    <img src={ps.src} alt="ps" />
+                    <Image src={ps.src} alt="ps" />
                   </div>
                   <div className="grid-item">
-                    <img src={right.src} alt="right" />
+                    <Image src={right.src} alt="right" />
                   </div>
                   <div className="grid-item">
-                    <img src={xd.src} alt="xd" />
+                    <Image src={xd.src} alt="xd" />
                   </div>
                   <div className="grid-item">
-                    <img src={ai.src} alt="ai" />
+                    <Image src={ai.src} alt="ai" />
                   </div>
                   <div className="grid-item">
-                    <img src={xml.src} alt="xml.js" />
+                    <Image src={xml.src} alt="xml.js" />
                   </div>
                   <div className="grid-item">
-                    <img src={trello.src} alt="trello" />
+                    <Image src={trello.src} alt="trello" />
                   </div>
                   <div className="grid-item">
-                    <img src={diamond.src} alt="diamond" />
+                    <Image src={diamond.src} alt="diamond" />
                   </div>
                   <div className="grid-item">
-                    <img src={jira.src} alt="Jira" />
+                    <Image src={jira.src} alt="Jira" />
                   </div>
                 </div>
               </div>
@@ -334,7 +334,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={heathcare.src} alt="" className="w-100" />
+                        <Image src={heathcare.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-blue">
                         <h3>Healthcare</h3>
@@ -344,7 +344,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Retail.src} alt="" className="w-100" />
+                        <Image src={Retail.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-green">
                         <h3>Retail & Ecommerce</h3>
@@ -354,7 +354,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Education.src} alt="" className="w-100" />
+                        <Image src={Education.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-pink">
                         <h3>Education</h3>
@@ -364,7 +364,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Realestate.src} alt="" className="w-100" />
+                        <Image src={Realestate.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-yellow">
                         <h3>Real Estate</h3>
@@ -374,7 +374,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Event.src} alt="" className="w-100" />
+                        <Image src={Event.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-blue">
                         <h3>Events</h3>
@@ -384,7 +384,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Finance.src} alt="" className="w-100" />
+                        <Image src={Finance.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-green">
                         <h3>Finance</h3>
@@ -394,7 +394,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Food.src} alt="" className="w-100" />
+                        <Image src={Food.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-pink">
                         <h3>Food & Restaurants</h3>
@@ -404,7 +404,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Media.src} alt="" className="w-100" />
+                        <Image src={Media.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-yellow">
                         <h3>Media & Entertainment</h3>

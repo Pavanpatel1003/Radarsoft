@@ -118,7 +118,7 @@ const Software_testing = () => {
       {/* service details banner section */}
       <section className="common_margin_space" data-aos="fade-up" data-aos-delay="300" >
         <div className="w-100 h-100 career_img">
-          <img
+          <Image
             className="w-100 d-lg-block"
             src={servicedetailsbanner}
             alt="Career Banner"
@@ -237,7 +237,7 @@ const Software_testing = () => {
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
               <div>
-                <img
+                <Image
                   src={servicedetails1.src}
                   alt="servicedetails"
                   className="w-100"
@@ -261,31 +261,31 @@ const Software_testing = () => {
               <div className="row">
                 <div className="grid-container">
                   <div className="grid-item">
-                    <img src={selenium} alt="selenium" />
+                    <Image src={selenium} alt="selenium" />
                   </div>
                   <div className="grid-item">
-                    <img src={postman} alt="postman" />
+                    <Image src={postman} alt="postman" />
                   </div>
                   <div className="grid-item">
-                    <img src={appium} alt="appium" />
+                    <Image src={appium} alt="appium" />
                   </div>
                   <div className="grid-item">
-                    <img src={junit} alt="junit" />
+                    <Image src={junit} alt="junit" />
                   </div>
                   <div className="grid-item">
-                    <img src={jmeter} alt="jmeter" />
+                    <Image src={jmeter} alt="jmeter" />
                   </div>
                   <div className="grid-item">
-                    <img src={soapui} alt="soapui.js" />
+                    <Image src={soapui} alt="soapui.js" />
                   </div>
                   <div className="grid-item">
-                    <img src={cypress} alt="cypress" />
+                    <Image src={cypress} alt="cypress" />
                   </div>
                   <div className="grid-item">
-                    <img src={testigma} alt="testigma" />
+                    <Image src={testigma} alt="testigma" />
                   </div>
                   <div className="grid-item">
-                    <img src={jira} alt="Jira" />
+                    <Image src={jira} alt="Jira" />
                   </div>
                 </div>
               </div>
@@ -331,7 +331,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={heathcare.src} alt="" className="w-100" />
+                        <Image src={heathcare.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-blue">
                         <h3>Healthcare</h3>
@@ -341,7 +341,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Retail.src} alt="" className="w-100" />
+                        <Image src={Retail.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-green">
                         <h3>Retail & Ecommerce</h3>
@@ -351,7 +351,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Education.src} alt="" className="w-100" />
+                        <Image src={Education.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-pink">
                         <h3>Education</h3>
@@ -361,7 +361,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Realestate.src} alt="" className="w-100" />
+                        <Image src={Realestate.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-yellow">
                         <h3>Real Estate</h3>
@@ -371,7 +371,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Event.src} alt="" className="w-100" />
+                        <Image src={Event.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-blue">
                         <h3>Events</h3>
@@ -381,7 +381,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Finance.src} alt="" className="w-100" />
+                        <Image src={Finance.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-green">
                         <h3>Finance</h3>
@@ -391,7 +391,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Food.src} alt="" className="w-100" />
+                        <Image src={Food.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-pink">
                         <h3>Food & Restaurants</h3>
@@ -401,7 +401,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Media.src} alt="" className="w-100" />
+                        <Image src={Media.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-yellow">
                         <h3>Media & Entertainment</h3>

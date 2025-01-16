@@ -106,7 +106,7 @@ const Digital = () => {
       {/* digital transformation banner section */}
       <section className="common_margin_space" data-aos="fade-up" data-aos-delay="300">
         <div className="w-100 h-100 career_img">
-          <img
+          <Image
             className="w-100 d-lg-block"
             src={digitalbanner}
             alt="Career Banner"
@@ -199,7 +199,7 @@ const Digital = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 digital_relative" data-aos="fade-right" data-aos-delay="300">
               <div className="digital_sec_bg">
-                <img src={digital.src} alt="" className="w-100" />
+                <Image src={digital.src} alt="" className="w-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">
@@ -252,7 +252,7 @@ const Digital = () => {
                 <div className="digital-grid-container">
                   <div className="digital-grid-item">
                     <div className="digital_img">
-                      <img src={mobileapp.src} alt="MongoDB" />
+                      <Image src={mobileapp.src} alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -263,7 +263,7 @@ const Digital = () => {
                   </div>
                   <div className="digital-grid-item">
                     <div className="digital_img">
-                      <img src={settings.src} alt="MongoDB" />
+                      <Image src={settings.src} alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -274,7 +274,7 @@ const Digital = () => {
                   </div>
                   <div className="digital-grid-item bottom-set">
                     <div className="digital_img">
-                      <img src={uiux.src} alt="MongoDB" />
+                      <Image src={uiux.src} alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -285,7 +285,7 @@ const Digital = () => {
                   </div>
                   <div className="digital-grid-item bottom-set">
                     <div className="digital_img">
-                      <img src={agile.src} alt="MongoDB" />
+                      <Image src={agile.src} alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -296,7 +296,7 @@ const Digital = () => {
                   </div>
                   <div className="digital-grid-item">
                     <div className="digital_img">
-                      <img src={AI.src} alt="MongoDB" />
+                      <Image src={AI.src} alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -307,7 +307,7 @@ const Digital = () => {
                   </div>
                   <div className="digital-grid-item">
                     <div className="digital_img">
-                      <img src={micro.src} alt="MongoDB" />
+                      <Image src={micro.src} alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -318,7 +318,7 @@ const Digital = () => {
                   </div>
                   <div className="digital-grid-item">
                     <div className="digital_img">
-                      <img src={webdevelopment.src} alt="MongoDB" />
+                      <Image src={webdevelopment.src} alt="MongoDB" />
                     </div>
                     <div>
                       <p>
@@ -341,7 +341,7 @@ const Digital = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
               <div className="case_d_con">
-                <img src={common_contact.src} alt="" className="w-100" />
+                <Image src={common_contact.src} alt="" className="w-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">
@@ -406,7 +406,7 @@ const Digital = () => {
           <div className="row row-cols-1 row-cols-lg-2 case-pad">
             <div className="col">
               <div>
-                <img
+                <Image
                   src={digitaltransformation1.src}
                   alt=""
                   className="w-100"
@@ -435,7 +435,7 @@ const Digital = () => {
             </div>
             <div className="col">
               <div>
-                <img
+                <Image
                   src={digitaltransformation2.src}
                   alt=""
                   className="w-100"

@@ -115,7 +115,7 @@ const Service_details = () => {
       {/* service details banner section */}
       <section className="common_margin_space" data-aos="fade-up" data-aos-delay="300" >
         <div className="w-100 h-100 career_img">
-          <img
+          <Image
             className="w-100 d-lg-block"
             src={servicedetailsbanner}
             alt="Career Banner"
@@ -235,7 +235,7 @@ const Service_details = () => {
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
               <div>
-                <img
+                <Image
                   src={servicedetails1.src}
                   alt="servicedetails"
                   className="w-100"
@@ -259,31 +259,31 @@ const Service_details = () => {
               <div className="row">
                 <div className="grid-container">
                   <div className="grid-item">
-                    <img src={mongo.src} alt="MongoDB" />
+                    <Image src={mongo.src} alt="MongoDB" />
                   </div>
                   <div className="grid-item">
-                    <img src={php.src} alt="PHP" />
+                    <Image src={php.src} alt="PHP" />
                   </div>
                   <div className="grid-item">
-                    <img src={aws.src} alt="AWS" />
+                    <Image src={aws.src} alt="AWS" />
                   </div>
                   <div className="grid-item">
-                    <img src={react.src} alt="React" />
+                    <Image src={react.src} alt="React" />
                   </div>
                   <div className="grid-item">
-                    <img src={css.src} alt="CSS3" />
+                    <Image src={css.src} alt="CSS3" />
                   </div>
                   <div className="grid-item">
-                    <img src={node.src} alt="Node.js" />
+                    <Image src={node.src} alt="Node.js" />
                   </div>
                   <div className="grid-item">
-                    <img src={flutter.src} alt="Flutter" />
+                    <Image src={flutter.src} alt="Flutter" />
                   </div>
                   <div className="grid-item">
-                    <img src={html.src} alt="HTML5" />
+                    <Image src={html.src} alt="HTML5" />
                   </div>
                   <div className="grid-item">
-                    <img src={jira.src} alt="Jira" />
+                    <Image src={jira.src} alt="Jira" />
                   </div>
                 </div>
               </div>
@@ -329,7 +329,7 @@ const Service_details = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={heathcare.src} alt="" className="w-100" />
+                        <Image src={heathcare.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-blue">
                         <h3>Healthcare</h3>
@@ -339,7 +339,7 @@ const Service_details = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Retail.src} alt="" className="w-100" />
+                        <Image src={Retail.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-green">
                         <h3>Retail & Ecommerce</h3>
@@ -349,7 +349,7 @@ const Service_details = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Education.src} alt="" className="w-100" />
+                        <Image src={Education.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-pink">
                         <h3>Education</h3>
@@ -359,7 +359,7 @@ const Service_details = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Realestate.src} alt="" className="w-100" />
+                        <Image src={Realestate.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-yellow">
                         <h3>Real Estate</h3>
@@ -369,7 +369,7 @@ const Service_details = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Event.src} alt="" className="w-100" />
+                        <Image src={Event.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-blue">
                         <h3>Events</h3>
@@ -379,7 +379,7 @@ const Service_details = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Finance.src} alt="" className="w-100" />
+                        <Image src={Finance.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-green">
                         <h3>Finance</h3>
@@ -389,7 +389,7 @@ const Service_details = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Food.src} alt="" className="w-100" />
+                        <Image src={Food.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-pink">
                         <h3>Food & Restaurants</h3>
@@ -399,7 +399,7 @@ const Service_details = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <img src={Media.src} alt="" className="w-100" />
+                        <Image src={Media.src} alt="" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-yellow">
                         <h3>Media & Entertainment</h3>

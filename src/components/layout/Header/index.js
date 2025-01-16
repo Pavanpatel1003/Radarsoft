@@ -60,7 +60,7 @@ const Header = () => {
               className="navbar-brand"
               onMouseDown={() => handleLinkClick("/")}
             >
-              <img
+              <Image
                 src={navIcon}
                 alt="BootstrapBrain Logo"
                 width="175"

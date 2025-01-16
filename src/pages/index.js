@@ -360,7 +360,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <img src={nbajaj} alt="" />
+                    <Image src={nbajaj} alt="" />
                   </div>
                   <div
                     className="col"
@@ -370,7 +370,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <img src={nlandt} alt="" />
+                    <Image src={nlandt} alt="" />
                   </div>
                   <div
                     className="col"
@@ -380,7 +380,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <img src={ntodo} alt="" />
+                    <Image src={ntodo} alt="" />
                   </div>
                   <div
                     className="col"
@@ -390,7 +390,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <img src={nrazor} alt="" />
+                    <Image src={nrazor} alt="" />
                   </div>
                   <div
                     className="col"
@@ -400,7 +400,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <img src={cat_logo} alt="" />
+                    <Image src={cat_logo} alt="" />
                   </div>
                   <div
                     className="col"
@@ -410,7 +410,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <img src={nyan} alt="" />
+                    <Image src={nyan} alt="" />
                   </div>
                   <div
                     className="col"
@@ -420,7 +420,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <img src={nacad} alt="" />
+                    <Image src={nacad} alt="" />
                   </div>
                   <div
                     className="col"
@@ -430,7 +430,7 @@ export default function Home() {
                       justifyContent: "center",
                     }}
                   >
-                    <img src={nbig} alt="" />
+                    <Image src={nbig} alt="" />
                   </div>
                 </div>
               </div>
@@ -477,7 +477,7 @@ export default function Home() {
                 <div className="row">
                   <div className="unique-area-left-side col-lg-6 col-12">
                     {activeAccordion === 1 && (
-                      <img
+                      <Image
                         id="img-rapid-design"
                         className="unique-area-img unique-area-img-1 img-fluid active"
                         src={RD_Process}
@@ -485,7 +485,7 @@ export default function Home() {
                       />
                     )}
                     {activeAccordion === 2 && (
-                      <img
+                      <Image
                         id="img-rapid-development"
                         className="unique-area-img unique-area-img-1 img-fluid active"
                         src={rapid_dev}
@@ -493,7 +493,7 @@ export default function Home() {
                       />
                     )}
                     {activeAccordion === 3 && (
-                      <img
+                      <Image
                         id="img-continuous-iterations"
                         className="unique-area-img unique-area-img-1 img-fluid active"
                         src={continious_iteration}
@@ -501,7 +501,7 @@ export default function Home() {
                       />
                     )}
                     {activeAccordion === 4 && (
-                      <img
+                      <Image
                         id="img-continuous-iterations"
                         className="unique-area-img unique-area-img-1 img-fluid active"
                         src={quality}
@@ -723,7 +723,7 @@ export default function Home() {
                     onClick={() => handleServices(router, service.id)}
                   >
                     <div key={service.id} className={`${service?.bgcolor}`}>
-                      <img
+                      <Image
                         className="service img-fluid"
                         src={service.image}
                         alt={service.title}
@@ -769,8 +769,8 @@ export default function Home() {
               <div className="work-area-lower-side">
                 <div className="work-lower-left col-md-6">
                   <div className="work-area-logo">
-                    <img className="work-logo" src={vector1} alt="1" />
-                    <img className="work-logo" src={vector2} alt="2" />
+                    <Image className="work-logo" src={vector1} alt="1" />
+                    <Image className="work-logo" src={vector2} alt="2" />
                   </div>
                   <h1 className="work-area-lower-heading">
                     Abhyan is an Indian e-learning <br /> platform offering
@@ -798,13 +798,13 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="work-lower-right col-md-6">
-                  <img
+                  <Image
                     className="work-picture-1 img-fluid"
                     // src={realmock8}
                     src={realmock9}
                     alt="3"
                   />
-                  <img
+                  <Image
                     className="work-picture-2 img-fluid"
                     src={realmock9}
                     alt="3"
@@ -913,7 +913,7 @@ export default function Home() {
                 </button>
               </div>
               <div className="about-us-right-side col-lg-6 col-12" data-aos="fade-left" data-aos-delay="300" data-aos-duration="0">
-                <img
+                <Image
                   className="about-image img-fluid"
                   src={rectangle54}
                   alt="frr"
@@ -969,7 +969,7 @@ export default function Home() {
                       style={{ background: "#002758" }}
                     > */}
                       <div className="work-logo">
-                        <img className="img-fluid" src={workLogo} />
+                        <Image className="img-fluid" src={workLogo} />
                       </div>
                       <p>
                         Working with RadarSoft was great! Their professionalism
@@ -977,7 +977,7 @@ export default function Home() {
                         our expectations. Highly recommended!
                       </p>
                       <user>
-                        <img className="img-fluid" src={vice} />
+                        <Image className="img-fluid" src={vice} />
                         <span>
                           <h6>Vikram Verma</h6>
                           <p style={{ fontSize: "14px" }}>
@@ -996,7 +996,7 @@ export default function Home() {
                       style={{ background: "#002758" }}
                     > */}
                       <div className="work-logo">
-                        <img className="img-fluid" src={workLogo2} />
+                        <Image className="img-fluid" src={workLogo2} />
                       </div>
                       <p>
                         Working with RadarSoft was great! Their professionalism
@@ -1004,7 +1004,7 @@ export default function Home() {
                         our expectations. Highly recommended!
                       </p>
                       <user>
-                        <img className="img-fluid" src={ajit} />
+                        <Image className="img-fluid" src={ajit} />
                         <span>
                           <h6>Ajit Agarkar</h6>
                           <p style={{ fontSize: "14px" }}>
@@ -1023,7 +1023,7 @@ export default function Home() {
                         style={{ background: "#FFFFFF", color: "#000000" }}
                       > */}
                       <div className="work-logo">
-                        <img className="img-fluid" src={workLogo3} />
+                        <Image className="img-fluid" src={workLogo3} />
                       </div>
                       <p>
                         Working with RadarSoft was great! Their professionalism
@@ -1031,7 +1031,7 @@ export default function Home() {
                         our expectations. Highly recommended!
                       </p>
                       <user>
-                        <img className="img-fluid" src={vice} />
+                        <Image className="img-fluid" src={vice} />
                         <span>
                           <h6>Vikram Verma</h6>
                           <p style={{ fontSize: "14px" }}>
