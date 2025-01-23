@@ -71,7 +71,7 @@ const Case_details = () => {
               {/* <div className="work-area-lower-side"> */}
               <div className="work-lower-left col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-right" data-aos-delay="300">
                 <div className="work-area-logo">
-                  <Image className="work-logo" src={work_ogo.src} alt="Description of the image" />
+                  <Image className="work-logo" src={work_ogo} alt="Description of the image" />
                 </div>
                 <h1 className="work-area-lower-heading">
                   Abhyan is an Indian e-learning <br />
@@ -90,7 +90,7 @@ const Case_details = () => {
                     className="work-area-lower-anchor-blue"
                     href="https://abhyan.in/"
                   >
-                    <Image src={planet.src} alt="Description of the image" /> www.abhyan.in
+                    <Image src={planet} alt="Description of the image" /> www.abhyan.in
                   </Link>
                 </div>
               </div>
@@ -154,7 +154,7 @@ const Case_details = () => {
             <div className="commom-heading">
               <div className="common-flex ">
                 <h2>The Challenge</h2>
-                <Link className="common-project-button" href="">
+                <Link className="common-project-button" href="/contact">
                   Start a project with us
                 </Link>
               </div>
@@ -215,7 +215,7 @@ const Case_details = () => {
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <Image className="case_d_right_img" src={case_d.src} alt="Description of the image" />
+              <Image className="case_d_right_img" src={case_d} alt="Description of the image" />
             </div>
           </div>
         </div>
@@ -238,32 +238,32 @@ const Case_details = () => {
             </div>
             <div class="process-container">
               <div class="process-step research">
-                <Image src={research.src} alt="Research Icon" />
+                <Image src={research} alt="Research Icon" />
                 <p>Research</p>
               </div>
               <div class="process-arrow">&#8594;</div>
               <div class="process-step design">
-                <Image src={design.src} alt="Design Icon" />
+                <Image src={design} alt="Design Icon" />
                 <p>Design</p>
               </div>
               <div class="process-arrow">&#8594;</div>
               <div class="process-step development">
-                <Image src={development.src} alt="Development Icon" />
+                <Image src={development} alt="Development Icon" />
                 <p>Development</p>
               </div>
               <div class="process-arrow">&#8594;</div>
               <div class="process-step testing">
-                <Image src={testing.src} alt="Testing Icon" />
+                <Image src={testing} alt="Testing Icon" />
                 <p>Testing</p>
               </div>
               <div class="process-arrow">&#8594;</div>
               <div class="process-step marketing">
-                <Image src={marketing.src} alt="Testing Icon" />
+                <Image src={marketing} alt="Testing Icon" />
                 <p>Marketing</p>
               </div>
               <div class="process-arrow">&#8594;</div>
               <div class="process-step support">
-                <Image src={suppport.src} alt="Testing Icon" />
+                <Image src={suppport} alt="Testing Icon" />
                 <p>Support</p>
               </div>
             </div>
@@ -271,7 +271,7 @@ const Case_details = () => {
               <div class="row text-center">
                 <div class="col-md-2 col-sm-12">
                   <div class="process-step research">
-                    <Image src={research.src} alt="Research Icon" />
+                    <Image src={research} alt="Research Icon" />
                     <p>Research</p>
                   </div>
                 </div>
@@ -280,7 +280,7 @@ const Case_details = () => {
                 </div>
                 <div class="col-md-2 col-sm-12">
                   <div class="process-step design">
-                    <Image src={design.src} alt="Design Icon" />
+                    <Image src={design} alt="Design Icon" />
                     <p>Design</p>
                   </div>
                 </div>
@@ -289,7 +289,7 @@ const Case_details = () => {
                 </div>
                 <div class="col-md-2 col-sm-12">
                   <div class="process-step development">
-                    <Image src={development.src} alt="Development Icon" />
+                    <Image src={development} alt="Development Icon" />
                     <p>Development</p>
                   </div>
                 </div>
@@ -298,7 +298,7 @@ const Case_details = () => {
                 </div>
                 <div class="col-md-2 col-sm-12">
                   <div class="process-step testing">
-                    <Image src={testing.src} alt="Testing Icon" />
+                    <Image src={testing} alt="Testing Icon" />
                     <p>Testing</p>
                   </div>
                 </div>
@@ -307,7 +307,7 @@ const Case_details = () => {
                 </div>
                 <div class="col-md-2 col-sm-12">
                   <div class="process-step marketing">
-                    <Image src={marketing.src} alt="marketing Icon" />
+                    <Image src={marketing} alt="marketing Icon" />
                     <p>Marketing</p>
                   </div>
                 </div>
@@ -316,7 +316,7 @@ const Case_details = () => {
                 </div>
                 <div class="col-md-2 col-sm-12">
                   <div class="process-step support">
-                    <Image src={suppport.src} alt="support Icon" />
+                    <Image src={suppport} alt="support Icon" />
                     <p>Support</p>
                   </div>
                 </div>
@@ -366,7 +366,7 @@ const Case_details = () => {
             <div className="col-12 col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center mt-md-5 mb-md-5 mb-sm-5 text-center">
               <div className="img_set">
                 <Image
-                  src={case_d_Empowering_real.src} alt="Description of the image" className=" w-100 h-100"
+                  src={case_d_Empowering_real} alt="Description of the image" className=" w-100 h-100"
                 />
               </div>
             </div>
@@ -403,7 +403,7 @@ const Case_details = () => {
             </div>
 
             <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-right" data-aos-delay="300">
-              <Image src={user.src} alt="Description of the image" className="case_d_img" />
+              <Image src={user} alt="Description of the image" className="case_d_img" />
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 case_d_key" data-aos="fade-left" data-aos-delay="300" >
               <div>
@@ -470,7 +470,7 @@ const Case_details = () => {
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <Image src={case_d.src} alt="Description of the image" className="case_d_right_img" />
+              <Image src={case_d} alt="Description of the image" className="case_d_right_img" />
             </div>
           </div>
         </div>
@@ -500,7 +500,7 @@ const Case_details = () => {
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-5 case_d_opt">
               <div>
-                <Link className="common-project-button" href="">
+                <Link className="common-project-button" href="/contact">
                   Start a project with us
                 </Link>
               </div>
@@ -509,22 +509,22 @@ const Case_details = () => {
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2 foursimage">
             <div class="col text-center">
               <div class="p-3">
-                <Image src={optimized1.src} alt="Description of the image"  />
+                <Image src={optimized1} alt="Description of the image" />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={optimized2.src} alt="Description of the image"  />
+                <Image src={optimized2} alt="Description of the image" />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={optimized3.src} alt="Description of the image"  />
+                <Image src={optimized3} alt="Description of the image" />
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={optimized4.src} alt="Description of the image"  />
+                <Image src={optimized4} alt="Description of the image" />
               </div>
             </div>
           </div>
@@ -559,45 +559,42 @@ const Case_details = () => {
               <div className="row row-cols-2 row-cols-lg-2 g-5 g-lg-5">
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_mongo1.src} alt="Description of the image" className="w-100" />
+                    <Image src={case_d_mongo1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_php1.src} alt="Description of the image" className="w-100" />
+                    <Image src={case_d_php1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_html1.src} alt="Description of the image" className="w-100" />
+                    <Image src={case_d_html1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_aws1.src} alt="Description of the image" className="w-100" />
+                    <Image src={case_d_aws1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_react1.src} alt="Description of the image" className="w-100" />
-                  </div>
-                </div>
-
-
-
-                <div className="col">
-                  <div className="img-shadow">
-                    <Image src={case_d_node1.src} alt="Description of the image" className="w-100" />
+                    <Image src={case_d_react1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_flutter1.src} alt="Description of the image" className="w-100" />
+                    <Image src={case_d_node1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
                 <div className="col">
                   <div className="img-shadow">
-                    <Image src={case_d_js1.src} alt="Description of the image" className="w-100" />
+                    <Image src={case_d_flutter1} alt="Description of the image" className="w-100" />
+                  </div>
+                </div>
+                <div className="col">
+                  <div className="img-shadow">
+                    <Image src={case_d_js1} alt="Description of the image" className="w-100" />
                   </div>
                 </div>
               </div>
@@ -693,7 +690,7 @@ const Case_details = () => {
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
               <div className="case_d_con">
-                <Image src={common_contact.src} alt="Description of the image" className="w-100" />
+                <Image src={common_contact} alt="Description of the image" className="w-100" />
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box" data-aos="fade-left" data-aos-delay="300">

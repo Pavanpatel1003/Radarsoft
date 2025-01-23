@@ -17,10 +17,10 @@ import keytrac2 from "../../../../public/assets/media/case-details/trac91/locals
 // import tracoptimized2 from "../../../../public/assets/media/case-details/tracoptimized2.png";
 // import tracoptimized3 from "../../../../public/assets/media/case-details/tracoptimized3.png";
 // import tracoptimized4 from "../../../../public/assets/media/case-details/tracoptimized4.png";
-import tracoptimized1 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/locateorders.svg";
-import tracoptimized2 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/myorders.svg";
-import tracoptimized3 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/shoplocal.svg";
-import tracoptimized4 from "../../../../public/assets/media/case-details/trac91/optimizedfortracking/sazo.svg";
+import tracoptimized1 from "../../../../public/assets/media/case-details/trac91/locateorders.svg";
+import tracoptimized2 from "../../../../public/assets/media/case-details/trac91/myorders.svg";
+import tracoptimized3 from "../../../../public/assets/media/case-details/trac91/shoplocal.svg";
+import tracoptimized4 from "../../../../public/assets/media/case-details/trac91/sazo.svg";
 
 import case_d_mongo1 from "../../../../public/assets/media/case-details/allicon/mongo.svg";
 import case_d_ex from "../../../../public/assets/media/case-details/allicon/ex.svg";
@@ -160,7 +160,7 @@ const Case_trac = () => {
             <div className="commom-heading">
               <div className="common-flex ">
                 <h2>The Challenge</h2>
-                <Link className="common-project-button" href="">
+                <Link className="common-project-button" href="/contact">
                   Start a project with us
                 </Link>
               </div>
@@ -519,7 +519,7 @@ const Case_trac = () => {
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-5 case_d_opt">
               <div>
-                <Link className="common-project-button" href="">
+                <Link className="common-project-button" href="/contact">
                   Start a project with us
                 </Link>
               </div>
@@ -528,22 +528,22 @@ const Case_trac = () => {
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2 foursimage">
             <div class="col text-center">
               <div class="p-3">
-                <Image src={tracoptimized1.src} alt="Description of the image"  /> 
+                <Image src={tracoptimized1 } alt="Description of the image"  /> 
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={tracoptimized2.src} alt="Description of the image"  /> 
+                <Image src={tracoptimized2 } alt="Description of the image"  /> 
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={tracoptimized3.src} alt="Description of the image"  /> 
+                <Image src={tracoptimized3 } alt="Description of the image"  /> 
               </div>
             </div>
             <div class="col text-center">
               <div class="p-3">
-                <Image src={tracoptimized4.src} alt="Description of the image"  /> 
+                <Image src={tracoptimized4 } alt="Description of the image"  /> 
               </div>
             </div>
           </div>
@@ -642,7 +642,7 @@ const Case_trac = () => {
             </div>
             <div class="col">
               <div class="case-d-result p-3">
-                <span class="case-d-num">24%</span>
+                <span class="case-d-num">12%</span>
                 <span>
                   <i class="fa-solid fa-arrow-up uparrow"></i>
                 </span>
@@ -652,7 +652,7 @@ const Case_trac = () => {
             </div>
             <div class="col">
               <div class="case-d-result p-3">
-                <span class="case-d-num">50%</span>
+                <span class="case-d-num">30%</span>
                 <span>
                   <i class="fa-solid fa-arrow-up uparrow"></i>
                 </span>
@@ -665,7 +665,7 @@ const Case_trac = () => {
             </div>
             <div class="col">
               <div class="case-d-result p-3">
-                <span class="case-d-num">50%</span>
+                <span class="case-d-num">20%</span>
                 <span>
                   <i class="fa-solid fa-arrow-up uparrow"></i>
                 </span>
@@ -678,7 +678,7 @@ const Case_trac = () => {
             </div>
             <div class="col">
               <div class="case-d-result p-3">
-                <span class="case-d-num">20,000+</span>
+                <span class="case-d-num">10,000+</span>
                 <span>
                   <i class="fa-solid fa-arrow-up uparrow"></i>
                 </span>

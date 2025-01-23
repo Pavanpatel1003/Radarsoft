@@ -358,8 +358,8 @@ img.service {
 
 .work-lower-right {
   display: flex;
-  /* align-items: flex-end; */
-  /* justify-content: end ; */
+  align-items: flex-end;
+  justify-content: end ;
 }
 
 .work-area-lower-heading {

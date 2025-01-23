@@ -81,7 +81,7 @@ const Crosspunk = () => {
                                     CrossPunk is an interactive puzzle adventure that challenges your mind and sparks your creativity. Dive into a world of vibrant color themes, thrilling music, and ever-changing levels, offering a fresh experience every day. Designed with passion and innovation, CrossPunk combines strategy, fun, and style to create a game that’s as captivating as it is challenging. Compete with friends, share your scores, and keep your streak alive as you unlock new possibilities in this immersive puzzle journey.
                                 </p>
                                 <div className="work-area-log">
-                                    <Link className="work-area-lower-anchor-blue" href="www.OnlineKorp.com">
+                                    <Link className="work-area-lower-anchor-blue" href="https://www.crosspunk.com" target="_blank">
                                         <Image src={planet} alt="Description of the image" /> www.crosspunk.com
                                     </Link>
                                 </div>
@@ -146,7 +146,7 @@ const Crosspunk = () => {
                         <div className="commom-heading">
                             <div className="common-flex ">
                                 <h2>The Challenge</h2>
-                                <Link className="common-project-button" href="">
+                                <Link className="common-project-button" href="/contact">
                                     Start a project with us
                                 </Link>
                             </div>
@@ -464,22 +464,22 @@ const Crosspunk = () => {
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2">
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized1.src} alt="Description of the image" /> 
+                                <Image src={tracoptimized1 } alt="Description of the image" /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized2.src} alt="Description of the image" /> 
+                                <Image src={tracoptimized2 } alt="Description of the image" /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized3.src} alt="Description of the image" /> 
+                                <Image src={tracoptimized3 } alt="Description of the image" /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized4.src} alt="Description of the image" /> 
+                                <Image src={tracoptimized4 } alt="Description of the image" /> 
                             </div>
                         </div>
                     </div>
@@ -502,7 +502,7 @@ const Crosspunk = () => {
                                     At RadarSoft Technologies, we use top tools to build great solutions. MongoDB for strong databases, PHP for web development, and React and Flutter for smooth web and mobile apps. Node.js powers our backend, AWS ensures secure cloud services, and JavaScript adds interactivity. Our tech stack helps us create reliable and innovative solutions for our clients.
                                 </p>
                                 <div className="w-50">
-                                    <Link className="common-project-button" href="">
+                                    <Link className="common-project-button" href="/contact">
                                         Start a project with us
                                     </Link>
                                 </div>

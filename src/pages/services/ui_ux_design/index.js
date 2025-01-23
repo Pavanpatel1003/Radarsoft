@@ -241,7 +241,7 @@ const Ui_ux = () => {
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
               <div>
                 <Image
-                  src={servicedetails1.src}
+                  src={servicedetails1 }
                   alt="servicedetails"
                   className="w-100"
                 />
@@ -264,31 +264,31 @@ const Ui_ux = () => {
               <div className="row">
                 <div className="grid-container">
                   <div className="grid-item">
-                    <Image src={figma.src}  alt="figma" />
+                    <Image src={figma }  alt="figma" />
                   </div>
                   <div className="grid-item">
-                    <Image src={ps.src}  alt="ps" />
+                    <Image src={ps }  alt="ps" />
                   </div>
                   <div className="grid-item">
-                    <Image src={right.src}  alt="right" />
+                    <Image src={right }  alt="right" />
                   </div>
                   <div className="grid-item">
-                    <Image src={xd.src}  alt="xd" />
+                    <Image src={xd }  alt="xd" />
                   </div>
                   <div className="grid-item">
-                    <Image src={ai.src}  alt="ai" />
+                    <Image src={ai }  alt="ai" />
                   </div>
                   <div className="grid-item">
-                    <Image src={xml.src}  alt="xml.js" />
+                    <Image src={xml }  alt="xml.js" />
                   </div>
                   <div className="grid-item">
-                    <Image src={trello.src}  alt="trello" />
+                    <Image src={trello }  alt="trello" />
                   </div>
                   <div className="grid-item">
-                    <Image src={diamond.src}  alt="diamond" />
+                    <Image src={diamond }  alt="diamond" />
                   </div>
                   <div className="grid-item">
-                    <Image src={jira.src}  alt="Jira" />
+                    <Image src={jira }  alt="Jira" />
                   </div>
                 </div>
               </div>
@@ -334,7 +334,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={heathcare.src}  alt="Description of the image" className="w-100" />
+                        <Image src={heathcare }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-blue">
                         <h3>Healthcare</h3>
@@ -344,7 +344,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Retail.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Retail }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-green">
                         <h3>Retail & Ecommerce</h3>
@@ -354,7 +354,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Education.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Education }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-pink">
                         <h3>Education</h3>
@@ -364,7 +364,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Realestate.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Realestate }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-yellow">
                         <h3>Real Estate</h3>
@@ -374,7 +374,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Event.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Event }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-blue">
                         <h3>Events</h3>
@@ -384,7 +384,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Finance.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Finance }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-green">
                         <h3>Finance</h3>
@@ -394,7 +394,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Food.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Food }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-pink">
                         <h3>Food & Restaurants</h3>
@@ -404,7 +404,7 @@ const Ui_ux = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Media.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Media }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-yellow">
                         <h3>Media & Entertainment</h3>

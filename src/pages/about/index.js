@@ -53,7 +53,7 @@ const About = () => {
                 future.
               </p>
             </div>
-            <div style={{ width: "200px" }}>
+            <div style={{ width: "269px" }}>
               <button
                 className="unique-area-button w-full"
                 onClick={() => router.push("/contact")}

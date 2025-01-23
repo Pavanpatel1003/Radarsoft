@@ -238,7 +238,7 @@ const Software_testing = () => {
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
               <div>
                 <Image
-                  src={servicedetails1.src} 
+                  src={servicedetails1 } 
                   alt="servicedetails"
                   className="w-100"
                 />
@@ -331,7 +331,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={heathcare.src}  alt="Description of the image" className="w-100" />
+                        <Image src={heathcare }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-blue">
                         <h3>Healthcare</h3>
@@ -341,7 +341,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Retail.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Retail }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-green">
                         <h3>Retail & Ecommerce</h3>
@@ -351,7 +351,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Education.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Education }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-pink">
                         <h3>Education</h3>
@@ -361,7 +361,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Realestate.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Realestate }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-yellow">
                         <h3>Real Estate</h3>
@@ -371,7 +371,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Event.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Event }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-blue">
                         <h3>Events</h3>
@@ -381,7 +381,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Finance.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Finance }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-green">
                         <h3>Finance</h3>
@@ -391,7 +391,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Food.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Food }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-pink">
                         <h3>Food & Restaurants</h3>
@@ -401,7 +401,7 @@ const Software_testing = () => {
                   <div className="col">
                     <div>
                       <div>
-                        <Image src={Media.src}  alt="Description of the image" className="w-100" />
+                        <Image src={Media }  alt="Description of the image" className="w-100" />
                       </div>
                       <div className="sercise-d-industries-blog bg-yellow">
                         <h3>Media & Entertainment</h3>

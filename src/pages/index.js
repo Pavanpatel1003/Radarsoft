@@ -19,6 +19,7 @@ import soft from "../../public/assets/media/soft.png";
 import vector1 from "../../public/assets/media/Vector.png";
 import vector2 from "../../public/assets/media/Vector (1).png";
 import realmock9 from "../../public/assets/media/Real Mocks 9.png";
+import homeab from "../../public/assets/media/homeab.png";
 import rectangle54 from "../../public/assets/media/office-image.webp";
 import workLogo from "../../public/assets/media/work-logo.png";
 import workLogo2 from "../../public/assets/media/work-logo2.png";
@@ -800,9 +801,9 @@ export default function Home() {
                 </div>
                 <div className="work-lower-right col-md-6">
                   <Image
-                    className="work-picture-1 img-fluid"
+                    className="work-picture-1 img-fluid mx-lg-4"
                     // src={realmock8}
-                    src={realmock9}
+                    src={homeab}
                     alt="3"
                   />
                   <Image

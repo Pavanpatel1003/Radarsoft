@@ -137,7 +137,7 @@ const Footer = () => {
                         href="/services/digital_transformation"
                         className="text-decoration-none sub-title"
                       >
-                       Digital Transformation
+                        Digital Transformation
                       </Link>
                     </li>
                   </ul>
@@ -155,7 +155,7 @@ const Footer = () => {
                         Contact Us
                       </Link>
                     </li>
-                    <li className="mb-2">
+                    <li className="mb-3">
                       <Link
                         href="/sitemap"
                         className="text-decoration-none sub-title"
@@ -163,23 +163,23 @@ const Footer = () => {
                         Site Map
                       </Link>
                     </li>
-                    <li className="mb-2">
+                    <li className="mb-3">
                       <Link
                         href="/privacy_policy"
                         className="text-decoration-none sub-title"
                       >
-                        Privacy Policy 
+                        Privacy Policy
                       </Link>
                     </li>
-                    <li className="mb-2">
+                    <li className="mb-3">
                       <Link
                         href="/refund_policy"
                         className="text-decoration-none sub-title"
                       >
-                       Refund Policy
+                        Refund Policy
                       </Link>
                     </li>
-                    <li className="mb-2">
+                    <li className="mb-3">
                       <Link
                         href="terms_condition"
                         className="text-decoration-none sub-title"

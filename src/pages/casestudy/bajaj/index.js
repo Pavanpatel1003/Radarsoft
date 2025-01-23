@@ -82,8 +82,8 @@ const Case_bajaj = () => {
                                     <br/>tools. This platform provides a centralized hub where users
                                     <br/> can access essential metrics, set targets, and monitor their
                                     <br/> progress with ease.   </p>
-                                <div className="work-area-log">
-                                    <Link className="work-area-lower-anchor-blue" href="www.OnlineKorp.com">
+                                <div className="work-area-log d-none">
+                                    <Link className="work-area-lower-anchor-blue" href="www.OnlineKorp.com" target="_blank">
                                         <Image src={planet} alt="Description of the image" /> www.employee720.com
                                     </Link>
                                 </div>
@@ -150,7 +150,7 @@ const Case_bajaj = () => {
                         <div className="commom-heading">
                             <div className="common-flex ">
                                 <h2>The Challenge</h2>
-                                <Link className="common-project-button" href="">
+                                <Link className="common-project-button" href="/contact">
                                     Start a project with us
                                 </Link>
                             </div>
@@ -454,7 +454,7 @@ const Case_bajaj = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-5 case_d_opt">
                             <div>
-                                <Link className="common-project-button" href="">
+                                <Link className="common-project-button" href="/contact">
                                     Start a project with us
                                 </Link>
                             </div>
@@ -463,22 +463,22 @@ const Case_bajaj = () => {
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-3 mt-2">
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized1.src} alt="Description of the image" /> 
+                                <Image src={tracoptimized1 } alt="Description of the image" /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized2.src} alt="Description of the image" /> 
+                                <Image src={tracoptimized2 } alt="Description of the image" /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized3.src} alt="Description of the image" /> 
+                                <Image src={tracoptimized3 } alt="Description of the image" /> 
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3">
-                                <Image src={tracoptimized4.src} alt="Description of the image" /> 
+                                <Image src={tracoptimized4 } alt="Description of the image" /> 
                             </div>
                         </div>
                     </div>
@@ -500,7 +500,7 @@ const Case_bajaj = () => {
                                 <p>
                                     At RadarSoft Technologies, we use top tools to build great solutions. MongoDB for strong databases, PHP for web development, and React and Flutter for smooth web and mobile apps. Node.js powers our backend, AWS ensures secure cloud services, and JavaScript adds interactivity. Our tech stack helps us create reliable and innovative solutions for our clients. </p>
                                 <div className="w-50">
-                                    <Link className="common-project-button" href="">
+                                    <Link className="common-project-button" href="/contact">
                                         Start a project with us
                                     </Link>
                                 </div>

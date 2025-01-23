@@ -113,7 +113,7 @@ const Appointment = () => {
 
                       {/* Phone Number Field */}
                       <input
-                        type="number"
+                        type=""
                         name="phoneNumber"
                         value={formik.values.phoneNumber}
                         onChange={formik.handleChange}
