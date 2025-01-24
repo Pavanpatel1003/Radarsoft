@@ -442,7 +442,7 @@ export default function Home() {
 
         {/* <!--unique area--> */}
         <section
-          className={`unique-area common_margin_space col-md-12 ${backgroundClass}`} data-aos="fade-up" data-aos-delay="300" data-aos-duration="0"
+          className={`unique-area common_margin_space col-md-12 ${backgroundClass}`}  
         >
           <div className="container">
             <div className="row">
@@ -476,7 +476,7 @@ export default function Home() {
               />
               <div className="unique-area-details">
                 <div className="row">
-                  <div className="unique-area-left-side col-lg-6 col-12">
+                  <div className="unique-area-left-side col-lg-6 col-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="0">
                     {activeAccordion === 1 && (
                       <Image
                         id="img-rapid-design"

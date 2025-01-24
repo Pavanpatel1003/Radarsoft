@@ -341,7 +341,7 @@ const Services = () => {
             <div
               className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4"
               style={{ cursor: "pointer" }}
-              onClick={() => handleServices(router, 7)}
+              onClick={() => handleServices(router, 6)}
             >
               <div className="service-card service-top">
                 <h4>Staff Augmentation</h4>
