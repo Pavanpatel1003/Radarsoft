@@ -121,6 +121,22 @@ const Apply = ({ selectedJobTitle }) => {
     }
   }, [selectedJobTitle]);
 
+  // Reset form and file input when modal is closed
+  useEffect(() => {
+    const modalElement = document.getElementById("ApplyModal");
+
+    const handleModalClose = () => {
+      formik.resetForm();
+      handleRemoveFile();
+    };
+
+    modalElement?.addEventListener("hidden.bs.modal", handleModalClose);
+
+    return () => {
+      modalElement?.removeEventListener("hidden.bs.modal", handleModalClose);
+    };
+  }, [formik]);
+
   return (
     <>
       <div
