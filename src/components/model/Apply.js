@@ -155,7 +155,7 @@ const Apply = ({ selectedJobTitle }) => {
                     <i className="fa-solid fa-arrow-left"></i>
                   </Link>
                 </span>
-                {selectedJobTitle ? selectedJobTitle : "web developer"}
+                {selectedJobTitle ? selectedJobTitle : "Web Developer"}
               </h1>
               <button
                 type="button"
@@ -260,7 +260,7 @@ const Apply = ({ selectedJobTitle }) => {
                       )}
                   </div>
                   <div className="form-group">
-                    <label htmlFor="resume">Upload Resume</label>
+                    <label htmlFor="resume">Resume</label>
                     <div style={{ position: "relative" }}>
                       <input
                         type="file"
@@ -272,8 +272,7 @@ const Apply = ({ selectedJobTitle }) => {
                       {selectedFile && (
                         <div className="file-info" style={{ marginTop: "10px" }}>
                           <span>
-                            {selectedFile.name} (
-                            {(selectedFile.size / 1024 / 1024).toFixed(2)} MB)
+                            {selectedFile.name} {/* Only displaying the selected file name */}
                           </span>
                           <i
                             className="fa fa-times"
@@ -295,6 +294,8 @@ const Apply = ({ selectedJobTitle }) => {
                       </span>
                     )}
                   </div>
+
+
                   <div className="modal-footer">
                     <button
                       type="submit"
