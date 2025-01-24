@@ -94,7 +94,7 @@ const Case_trac = () => {
                 <div className="work-area-log">
                   <Link
                     className="work-area-lower-anchor-blue"
-                    href="https://trac91.com/"
+                    href="https://trac91.com/" target="_blank"
                   >
                     <Image src={planet} alt="Description of the image" /> www.trac91.com
                   </Link>

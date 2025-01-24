@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import servicedetails1 from "../../../../public/assets/media/service-details/servicedetails1.webp";
 import mongo from "../../../../public/assets/media/service-details/mongo.png";
-import php from "../../../../public/assets/media/service-details/php.png";
+import angular from "../../../../public/assets/media/service-details/angular.png";
 import aws from "../../../../public/assets/media/service-details/aws.png";
 import react from "../../../../public/assets/media/service-details/react.png";
 import css from "../../../../public/assets/media/service-details/css.png";
@@ -262,7 +262,7 @@ const Service_details = () => {
                     <Image src={mongo } alt="MongoDB" />
                   </div>
                   <div className="grid-item">
-                    <Image src={php } alt="PHP" />
+                    <Image src={angular } alt="angular" />
                   </div>
                   <div className="grid-item">
                     <Image src={aws } alt="AWS" />

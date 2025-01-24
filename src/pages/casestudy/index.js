@@ -30,8 +30,12 @@ const CaseStudy = () => {
     AOS.init({ once: true });
   }, []);
 
-  const handleopencase = () => {
-    // openAppointmentModal();
+  const handleopencase = (path) => {
+    debugger
+    setTimeout(() => {
+      router.push(path);
+      return;
+    }, 200);
   };
 
   return (
@@ -125,7 +129,11 @@ const CaseStudy = () => {
           <div className="row row-cols-1 row-cols-lg-2 case-pad">
 
             <div className="col" data-aos="fade-right" data-aos-delay="300">
-              <div className="case-card" onClick={handleopencase}>
+              <div className="case-card" onMouseDown={() =>
+                handleopencase(
+                  "/casestudy/abhyan"
+                )
+              }>
                 <div>
                   <Image src={case1} alt="Description of the image" className="w-100" />
                 </div>
@@ -155,7 +163,11 @@ const CaseStudy = () => {
             </div>
 
             <div className="col" data-aos="fade-left" data-aos-delay="300">
-              <div className="case-card">
+              <div className="case-card" onMouseDown={() =>
+                handleopencase(
+                  "/casestudy/trac"
+                )
+              }>
                 <div>
                   <Image src={case2} alt="Description of the image" className="w-100" />
                 </div>
@@ -186,7 +198,11 @@ const CaseStudy = () => {
             </div>
 
             <div className="col" data-aos="fade-right" data-aos-delay="300">
-              <div className="case-card">
+              <div className="case-card" onMouseDown={() =>
+                handleopencase(
+                  "/casestudy/acad"
+                )
+              }>
                 <div>
                   <Image src={case3} alt="Description of the image" className="w-100" />
                 </div>
@@ -216,7 +232,11 @@ const CaseStudy = () => {
             </div>
 
             <div className="col" data-aos="fade-up" data-aos-delay="300">
-              <div className="case-card">
+              <div className="case-card" onMouseDown={() =>
+                handleopencase(
+                  "/casestudy/onlineKorp"
+                )
+              }>
                 <div>
                   <Image src={case4} alt="Description of the image" className="w-100" />
                 </div>
@@ -246,7 +266,11 @@ const CaseStudy = () => {
             </div>
 
             <div className="col" data-aos="fade-right" data-aos-delay="300">
-              <div className="case-card">
+              <div className="case-card" onMouseDown={() =>
+                handleopencase(
+                  "/casestudy/bajaj"
+                )
+              }>
                 <div>
                   <Image src={case5} alt="Description of the image" className="w-100" />
                 </div>
@@ -276,7 +300,11 @@ const CaseStudy = () => {
             </div>
 
             <div className="col" data-aos="fade-up" data-aos-delay="300">
-              <div className="case-card">
+              <div className="case-card" onMouseDown={() =>
+                handleopencase(
+                  "/casestudy/endura"
+                )
+              }>
                 <div>
                   <Image src={case6} alt="Description of the image" className="w-100" />
                 </div>
@@ -306,7 +334,11 @@ const CaseStudy = () => {
             </div>
 
             <div className="col" data-aos="fade-right" data-aos-delay="300">
-              <div className="case-card">
+              <div className="case-card" onMouseDown={() =>
+                handleopencase(
+                  "/casestudy/crosspunk"
+                )
+              }>
                 <div>
                   <Image src={case7} alt="Description of the image" className="w-100" />
                 </div>
@@ -336,7 +368,11 @@ const CaseStudy = () => {
             </div>
 
             <div className="col" data-aos="fade-up" data-aos-delay="300">
-              <div className="case-card">
+              <div className="case-card" onMouseDown={() =>
+                handleopencase(
+                  "/casestudy/vacaySitters"
+                )
+              }>
                 <div>
                   <Image src={case8} alt="Description of the image" className="w-100" />
                 </div>

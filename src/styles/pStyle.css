@@ -1453,6 +1453,7 @@ input:focus-visible {
 
 .case-card {
   position: relative;
+  cursor: pointer;
 }
 
 .text-head h4 {

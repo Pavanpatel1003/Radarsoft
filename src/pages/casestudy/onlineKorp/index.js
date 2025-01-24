@@ -88,7 +88,7 @@ const Case_onlineKorp = () => {
                                     <br />FAQ section, we support you throughout the entire process.
                                 </p>
                                 <div className="work-area-log d-none">
-                                    <Link className="work-area-lower-anchor-blue" href="www.OnlineKorp.com">
+                                    <Link className="work-area-lower-anchor-blue" href="www.OnlineKorp.com" target="_blank">
                                         <Image src={planet} alt="Description of the image" /> www.OnlineKorp.com
                                     </Link>
                                 </div>

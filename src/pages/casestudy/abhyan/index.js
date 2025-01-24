@@ -88,7 +88,7 @@ const Case_details = () => {
                 <div className="work-area-log">
                   <Link
                     className="work-area-lower-anchor-blue"
-                    href="https://abhyan.in/"
+                    href="https://abhyan.in/" target="_blank"
                   >
                     <Image src={planet} alt="Description of the image" /> www.abhyan.in
                   </Link>
