@@ -74,7 +74,7 @@ const Apply = ({ selectedJobTitle }) => {
     if (selectedJobTitle) {
       formik.setFieldValue("jobTitle", selectedJobTitle);
     }
-  }, [selectedJobTitle, formik]);
+  }, [selectedJobTitle]);
 
 
   return (
