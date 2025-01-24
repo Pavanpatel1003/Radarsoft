@@ -90,7 +90,7 @@ const Crosspunk = () => {
                                 <div className="row row-cols-2 row-cols-lg-2 g-2 g-lg-3 mt-36">
                                     <div class="col">
                                         <div class="case-d-result text-white p-3">
-                                            <span class="case-d-num">24%</span>
+                                            <span class="case-d-num">28%</span>
                                             <span>
                                                 <i class="fa-solid fa-arrow-up uparrow_header"></i>
                                             </span>
@@ -100,7 +100,7 @@ const Crosspunk = () => {
                                     </div>
                                     <div class="col">
                                         <div class="case-d-result text-white p-3">
-                                            <span class="case-d-num">64%</span>
+                                            <span class="case-d-num">68%</span>
                                             <span>
                                                 <i class="fa-solid fa-arrow-up uparrow_header"></i>
                                             </span>
@@ -110,7 +110,7 @@ const Crosspunk = () => {
                                     </div>
                                     <div class="col">
                                         <div class="case-d-result text-white p-3">
-                                            <span class="case-d-num">84%</span>
+                                            <span class="case-d-num">80%</span>
                                             <span>
                                                 <i class="fa-solid fa-arrow-up uparrow_header"></i>
                                             </span>
@@ -120,7 +120,7 @@ const Crosspunk = () => {
                                     </div>
                                     <div class="col">
                                         <div class="case-d-result text-white p-3">
-                                            <span class="case-d-num">80%</span>
+                                            <span class="case-d-num">90%</span>
                                             <span>
                                                 <i class="fa-solid fa-arrow-up uparrow_header"></i>
                                             </span>
