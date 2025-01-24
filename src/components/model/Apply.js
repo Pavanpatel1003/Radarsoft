@@ -11,6 +11,15 @@ const Apply = ({ selectedJobTitle }) => {
   const [selectedFile, setSelectedFile] = useState(null);
   const API_URL = process.env.NEXT_PUBLIC_BACKEND_DEVELOPMENT_URL;
 
+  // Validation constants
+  const MAX_FILE_SIZE = 2 * 1024 * 1024; // 2MB
+  const SUPPORTED_FORMATS = [
+    "application/pdf",
+    "application/msword",
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  ];
+
+  // Validation schema
   const JobValidation = Yup.object().shape({
     name: Yup.string().required("Name is required"),
     email: Yup.string()
@@ -25,9 +34,21 @@ const Apply = ({ selectedJobTitle }) => {
     expectedCtc: Yup.number()
       .typeError("Expected CTC must be numeric")
       .required("Expected CTC is required"),
-    resume: Yup.mixed().required("Resume is required"),
+    resume: Yup.mixed()
+      .required("Resume is required")
+      .test(
+        "fileSize",
+        "File size must be less than 2MB",
+        (value) => !value || (value && value.size <= MAX_FILE_SIZE)
+      )
+      .test(
+        "fileType",
+        "Unsupported file format",
+        (value) => !value || (value && SUPPORTED_FORMATS.includes(value.type))
+      ),
   });
 
+  // Formik initialization
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -69,18 +90,31 @@ const Apply = ({ selectedJobTitle }) => {
     },
   });
 
+  // Handle file change
   const handleFileChange = (event) => {
     const file = event.target.files[0];
-    setSelectedFile(file);
-    formik.setFieldValue("resume", file);
+    if (file) {
+      if (!SUPPORTED_FORMATS.includes(file.type)) {
+        toast.error("Unsupported file format. Only PDF, DOC, and DOCX are allowed.");
+        return;
+      }
+      if (file.size > MAX_FILE_SIZE) {
+        toast.error("File size must be less than 2MB.");
+        return;
+      }
+      setSelectedFile(file);
+      formik.setFieldValue("resume", file);
+    }
   };
 
+  // Remove file
   const handleRemoveFile = () => {
     setSelectedFile(null);
     formik.setFieldValue("resume", null);
     document.getElementById("fileInput").value = ""; // Clear file input
   };
 
+  // Update job title when `selectedJobTitle` changes
   useEffect(() => {
     if (selectedJobTitle) {
       formik.setFieldValue("jobTitle", selectedJobTitle);
@@ -220,14 +254,11 @@ const Apply = ({ selectedJobTitle }) => {
                         onChange={handleFileChange}
                       />
                       {selectedFile && (
-                        <div
-                          className="file-info"
-                          style={{
-                            position: "absolute",
-                            top: "0%",
-                            left: "40%",
-                          }}
-                        >
+                        <div className="file-info" style={{ marginTop: "10px" }}>
+                          <span>
+                            {selectedFile.name} (
+                            {(selectedFile.size / 1024 / 1024).toFixed(2)} MB)
+                          </span>
                           <i
                             className="fa fa-times"
                             onClick={handleRemoveFile}
@@ -235,12 +266,18 @@ const Apply = ({ selectedJobTitle }) => {
                               cursor: "pointer",
                               color: "red",
                               fontSize: "20px",
+                              marginLeft: "10px",
                             }}
                             title="Remove file"
                           ></i>
                         </div>
                       )}
                     </div>
+                    {formik.errors.resume && formik.touched.resume && (
+                      <span className="formik-errors-text">
+                        {formik.errors.resume}
+                      </span>
+                    )}
                   </div>
                   <div className="modal-footer">
                     <button
