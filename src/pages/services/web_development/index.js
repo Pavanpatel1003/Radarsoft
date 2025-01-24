@@ -234,7 +234,7 @@ const Service_details = () => {
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-right" data-aos-delay="300">
-              <div>
+              <div className="right-side-img">
                 <Image
                   src={servicedetails1 }
                   alt="servicedetails"

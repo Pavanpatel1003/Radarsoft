@@ -1560,3 +1560,7 @@ input:focus-visible {
 .bottom-space {
   margin-bottom: 50px;
 }
+
+.right-side-img img{
+  height: auto;
+}
