@@ -1,19 +1,32 @@
-import useValidationSchema from "@/components/validation/FormValidation";
 import axios from "axios";
 import { useFormik } from "formik";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { ThreeDots } from "react-loader-spinner";
 import { toast } from "react-toastify";
-import { closeApplyModal } from "../common/data";
+import * as Yup from "yup";
 
 const Apply = ({ selectedJobTitle }) => {
-  const { JobValidation } = useValidationSchema();
   const [loading, setLoading] = useState(false);
   const [selectedFile, setSelectedFile] = useState(null);
   const API_URL = process.env.NEXT_PUBLIC_BACKEND_DEVELOPMENT_URL;
 
-  console.log("job title selected here.", selectedJobTitle);
+  const JobValidation = Yup.object().shape({
+    name: Yup.string().required("Name is required"),
+    email: Yup.string()
+      .email("Invalid email address")
+      .required("Email is required"),
+    phone: Yup.string()
+      .matches(/^\d{10}$/, "Phone number must be exactly 10 digits")
+      .required("Phone number is required"),
+    currentCtc: Yup.number()
+      .typeError("Current CTC must be numeric")
+      .required("Current CTC is required"),
+    expectedCtc: Yup.number()
+      .typeError("Expected CTC must be numeric")
+      .required("Expected CTC is required"),
+    resume: Yup.mixed().required("Resume is required"),
+  });
 
   const formik = useFormik({
     initialValues: {
@@ -41,19 +54,17 @@ const Apply = ({ selectedJobTitle }) => {
             "Content-Type": "multipart/form-data",
           },
         });
-        console.log("form data", response);
+
         if (response.status === 201) {
-          console.log("response here", response);
           toast.success("Your request submitted successfully.");
           resetForm();
           closeApplyModal();
           handleRemoveFile(); // Ensure file is removed
         }
       } catch (error) {
-        console.log("error in request", error);
         toast.error("There was an error submitting your request.");
       } finally {
-        setLoading(false); // Set loading to false after submission completes
+        setLoading(false);
       }
     },
   });
@@ -75,7 +86,6 @@ const Apply = ({ selectedJobTitle }) => {
       formik.setFieldValue("jobTitle", selectedJobTitle);
     }
   }, [selectedJobTitle]);
-
 
   return (
     <>
@@ -118,13 +128,11 @@ const Apply = ({ selectedJobTitle }) => {
                       value={formik.values.name}
                       onChange={formik.handleChange}
                     />
-                    <div>
-                      {formik.errors.name && formik.touched.name && (
-                        <span className="formik-errors-text">
-                          {formik.errors.name}
-                        </span>
-                      )}
-                    </div>
+                    {formik.errors.name && formik.touched.name && (
+                      <span className="formik-errors-text">
+                        {formik.errors.name}
+                      </span>
+                    )}
                   </div>
                   <div className="form-group">
                     <label htmlFor="email">Email address</label>
@@ -137,13 +145,11 @@ const Apply = ({ selectedJobTitle }) => {
                       value={formik.values.email}
                       onChange={formik.handleChange}
                     />
-                    <div>
-                      {formik.errors.email && formik.touched.email && (
-                        <span className="formik-errors-text">
-                          {formik.errors.email}
-                        </span>
-                      )}
-                    </div>
+                    {formik.errors.email && formik.touched.email && (
+                      <span className="formik-errors-text">
+                        {formik.errors.email}
+                      </span>
+                    )}
                   </div>
                   <div className="form-group">
                     <label htmlFor="phone">Phone number</label>
@@ -154,58 +160,57 @@ const Apply = ({ selectedJobTitle }) => {
                       name="phone"
                       placeholder="Phone*"
                       value={formik.values.phone}
-                      onChange={formik.handleChange}
+                      maxLength="10"
+                      onChange={(e) => {
+                        if (/^\d*$/.test(e.target.value)) {
+                          formik.handleChange(e);
+                        }
+                      }}
                     />
-                    <div>
-                      {formik.errors.phone && formik.touched.phone && (
-                        <span className="formik-errors-text">
-                          {formik.errors.phone}
-                        </span>
-                      )}
-                    </div>
+                    {formik.errors.phone && formik.touched.phone && (
+                      <span className="formik-errors-text">
+                        {formik.errors.phone}
+                      </span>
+                    )}
                   </div>
                   <div className="form-group">
-                    <label htmlFor="currentCtc">Current ctc</label>
+                    <label htmlFor="currentCtc">Current CTC</label>
                     <input
-                      type="text"
+                      type="number"
                       className="form-control"
                       id="currentCtc"
                       name="currentCtc"
-                      placeholder="Current ctc*"
+                      placeholder="Current CTC*"
                       value={formik.values.currentCtc}
                       onChange={formik.handleChange}
                     />
-                    <div>
-                      {formik.errors.currentCtc &&
-                        formik.touched.currentCtc && (
-                          <span className="formik-errors-text">
-                            {formik.errors.currentCtc}
-                          </span>
-                        )}
-                    </div>
+                    {formik.errors.currentCtc &&
+                      formik.touched.currentCtc && (
+                        <span className="formik-errors-text">
+                          {formik.errors.currentCtc}
+                        </span>
+                      )}
                   </div>
                   <div className="form-group">
-                    <label htmlFor="expectedCtc">Expected ctc</label>
+                    <label htmlFor="expectedCtc">Expected CTC</label>
                     <input
-                      type="text"
+                      type="number"
                       className="form-control"
                       id="expectedCtc"
                       name="expectedCtc"
-                      placeholder="Expected ctc*"
+                      placeholder="Expected CTC*"
                       value={formik.values.expectedCtc}
                       onChange={formik.handleChange}
                     />
-                    <div>
-                      {formik.errors.expectedCtc &&
-                        formik.touched.expectedCtc && (
-                          <span className="formik-errors-text">
-                            {formik.errors.expectedCtc}
-                          </span>
-                        )}
-                    </div>
+                    {formik.errors.expectedCtc &&
+                      formik.touched.expectedCtc && (
+                        <span className="formik-errors-text">
+                          {formik.errors.expectedCtc}
+                        </span>
+                      )}
                   </div>
                   <div className="form-group">
-                    <label htmlFor="resume">Upload resume</label>
+                    <label htmlFor="resume">Upload Resume</label>
                     <div style={{ position: "relative" }}>
                       <input
                         type="file"
@@ -255,8 +260,6 @@ const Apply = ({ selectedJobTitle }) => {
                           color="#FFFFFF"
                           radius="9"
                           ariaLabel="three-dots-loading"
-                          wrapperStyle={{}}
-                          wrapperClass=""
                         />
                       ) : (
                         "Submit"
