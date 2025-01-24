@@ -259,21 +259,43 @@ const Apply = ({ selectedJobTitle }) => {
                         </span>
                       )}
                   </div>
+
                   <div className="form-group">
                     <label htmlFor="resume">Resume</label>
                     <div style={{ position: "relative" }}>
+                      {/* File input */}
                       <input
                         type="file"
                         className="file-type"
                         name="resume"
                         id="fileInput"
                         onChange={handleFileChange}
+                        style={{
+                          opacity: 0, // Hide the input element
+                          position: "absolute", // Overlay it invisibly
+                          zIndex: -1, // Make sure it's not clickable directly
+                        }}
                       />
+                      {/* Custom file upload button */}
+                      <label
+                        htmlFor="fileInput"
+                        className="upload-label"
+                        style={{
+                          display: "inline-block",
+                          padding: "10px 20px",
+                          backgroundColor: "rgb(249 245 245)",
+                          color: "#000",
+                          borderRadius: "5px",
+                          cursor: "pointer",
+                        }}
+                      >
+                        Choose File
+                      </label>
+
+                      {/* Display selected file name */}
                       {selectedFile && (
                         <div className="file-info" style={{ marginTop: "10px" }}>
-                          <span>
-                            {selectedFile.name} {/* Only displaying the selected file name */}
-                          </span>
+                          <span>{selectedFile.name}</span>
                           <i
                             className="fa fa-times"
                             onClick={handleRemoveFile}
@@ -294,6 +316,7 @@ const Apply = ({ selectedJobTitle }) => {
                       </span>
                     )}
                   </div>
+
 
 
                   <div className="modal-footer">
