@@ -14,7 +14,9 @@ const Appointment = () => {
   const BookingValidation = Yup.object().shape({
     fullName: Yup.string().required("Full Name is required"),
     email: Yup.string().email("Invalid email").required("Email is required"),
-    phoneNumber: Yup.string().required("Phone number is required"),
+    phoneNumber: Yup.string()
+      .matches(/^\d{10}$/, "Phone number must be 10 digits")
+      .required("Phone number is required"),
     subject: Yup.string().required("Subject is required"),
   });
 
@@ -113,23 +115,30 @@ const Appointment = () => {
 
                       {/* Phone Number Field */}
                       <input
-                        type=""
+                        type="tel" // Use "tel" for better mobile support
                         name="phoneNumber"
                         value={formik.values.phoneNumber}
-                        onChange={formik.handleChange}
+                        onChange={(e) => {
+                          const onlyNumbers = e.target.value.replace(/\D/g, ""); // Remove non-numeric values
+                          formik.setFieldValue("phoneNumber", onlyNumbers);
+                        }}
                         onBlur={formik.handleBlur}
                         placeholder="Phone No*"
+                        inputMode="numeric" // Helps mobile users get a numeric keyboard
+                        pattern="[0-9]*" // Restricts input to numbers
+                        onKeyDown={(e) => {
+                          if (e.key === "e" || e.key === "E" || e.key === "-" || e.key === "+") {
+                            e.preventDefault(); // Prevent invalid characters
+                          }
+                        }}
+                        style={{ appearance: "textfield" }} // Removes number input arrows
                       />
                       <div className="mb-4">
-                        {formik.touched.phoneNumber &&
-                          formik.errors.phoneNumber && (
-                            <span
-                              className="formik-errors-text"
-                              style={{ fontSize: "12px" }}
-                            >
-                              {formik.errors.phoneNumber}
-                            </span>
-                          )}
+                        {formik.touched.phoneNumber && formik.errors.phoneNumber && (
+                          <span className="formik-errors-text" style={{ fontSize: "12px" }}>
+                            {formik.errors.phoneNumber}
+                          </span>
+                        )}
                       </div>
 
                       {/* Subject Field */}
@@ -186,6 +195,24 @@ const Appointment = () => {
           </div>
         </div>
       </div>
+
+      {/* CSS to hide arrow/spinner in number input */}
+      <style jsx>{`
+        input[type="tel"]::-webkit-outer-spin-button,
+        input[type="tel"]::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+
+        input[type="tel"] {
+          -moz-appearance: textfield; /* Firefox */
+        }
+
+        input:focus {
+          outline: none;
+          border-color: #007bff;
+        }
+      `}</style>
     </>
   );
 };

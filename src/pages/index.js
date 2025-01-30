@@ -237,101 +237,118 @@ export default function Home() {
                       Book an Appointment
                     </h3>
                     <form onSubmit={formik.handleSubmit}>
-                      <input
-                        type="text"
-                        name="fullName"
-                        value={formik.values.fullName}
-                        onChange={formik.handleChange}
-                        placeholder="Full Name*"
-                      />
-                      <div className="mb-4">
-                        {formik.errors.fullName && formik.touched.fullName && (
-                          <span
-                            className="formik-errors-text"
-                            style={{ fontSize: "12px" }}
-                          >
-                            {formik.errors.fullName}
-                          </span>
-                        )}
-                      </div>
-                      <input
-                        type="text"
-                        name="email"
-                        value={formik.values.email}
-                        onChange={formik.handleChange}
-                        placeholder="Email Id*"
-                      />
-                      <div className="mb-4">
-                        {formik.errors.email && formik.touched.email && (
-                          <span
-                            className="formik-errors-text"
-                            style={{ fontSize: "12px" }}
-                          >
-                            {formik.errors.email}
-                          </span>
-                        )}
-                      </div>
-                      <input
-                        type="number"
-                        placeholder="Phone No*"
-                        name="phoneNumber"
-                        value={formik.values.phoneNumber}
-                        onChange={formik.handleChange}
-                      />
-                      <div className="mb-4">
-                        {formik.errors.phoneNumber &&
-                          formik.touched.phoneNumber && (
-                            <span
-                              className="formik-errors-text"
-                              style={{ fontSize: "12px" }}
-                            >
-                              {formik.errors.phoneNumber}
-                            </span>
-                          )}
-                      </div>
-
-                      <input
-                        type="text"
-                        name="subject"
-                        value={formik.values.subject}
-                        onChange={formik.handleChange}
-                        placeholder="Subject*"
-                      />
-                      <div className="mb-4">
-                        {formik.errors.subject && formik.touched.subject && (
-                          <span
-                            className="formik-errors-text"
-                            style={{ fontSize: "12px" }}
-                          >
-                            {formik.errors.subject}
-                          </span>
-                        )}
-                      </div>
-                      <button
-                        className="banner-right-side-button"
-                        type="submit"
-                        style={{
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                        }}
-                      >
-                        {loading ? (
-                          <ThreeDots
-                            visible={true}
-                            height="80"
-                            width="80"
-                            color="#FFFFFF"
-                            radius="9"
-                            ariaLabel="three-dots-loading"
-                            wrapperStyle={{}}
-                            wrapperClass=""
-                          />
-                        ) : (
-                          "Enquire Now"
-                        )}
-                      </button>
-                    </form>
+                                         {/* Full Name Field */}
+                                         <input
+                                           type="text"
+                                           name="fullName"
+                                           value={formik.values.fullName}
+                                           onChange={formik.handleChange}
+                                           onBlur={formik.handleBlur} // Capture blur event for validation
+                                           placeholder="Full Name*"
+                                         />
+                                         <div className="mb-4">
+                                           {formik.touched.fullName && formik.errors.fullName && (
+                                             <span
+                                               className="formik-errors-text"
+                                               style={{ fontSize: "12px" }}
+                                             >
+                                               {formik.errors.fullName}
+                                             </span>
+                                           )}
+                                         </div>
+                   
+                                         {/* Email Field */}
+                                         <input
+                                           type="text"
+                                           name="email"
+                                           value={formik.values.email}
+                                           onChange={formik.handleChange}
+                                           onBlur={formik.handleBlur}
+                                           placeholder="Email Id*"
+                                         />
+                                         <div className="mb-4">
+                                           {formik.touched.email && formik.errors.email && (
+                                             <span
+                                               className="formik-errors-text"
+                                               style={{ fontSize: "12px" }}
+                                             >
+                                               {formik.errors.email}
+                                             </span>
+                                           )}
+                                         </div>
+                   
+                                         {/* Phone Number Field */}
+                                         <input
+                                           type="tel" // Use "tel" for better mobile support
+                                           name="phoneNumber"
+                                           value={formik.values.phoneNumber}
+                                           onChange={(e) => {
+                                             const onlyNumbers = e.target.value.replace(/\D/g, ""); // Remove non-numeric values
+                                             formik.setFieldValue("phoneNumber", onlyNumbers);
+                                           }}
+                                           onBlur={formik.handleBlur}
+                                           placeholder="Phone No*"
+                                           inputMode="numeric" // Helps mobile users get a numeric keyboard
+                                           pattern="[0-9]*" // Restricts input to numbers
+                                           onKeyDown={(e) => {
+                                             if (e.key === "e" || e.key === "E" || e.key === "-" || e.key === "+") {
+                                               e.preventDefault(); // Prevent invalid characters
+                                             }
+                                           }}
+                                           style={{ appearance: "textfield" }} // Removes number input arrows
+                                         />
+                                         <div className="mb-4">
+                                           {formik.touched.phoneNumber && formik.errors.phoneNumber && (
+                                             <span className="formik-errors-text" style={{ fontSize: "12px" }}>
+                                               {formik.errors.phoneNumber}
+                                             </span>
+                                           )}
+                                         </div>
+                   
+                                         {/* Subject Field */}
+                                         <input
+                                           type="text"
+                                           name="subject"
+                                           value={formik.values.subject}
+                                           onChange={formik.handleChange}
+                                           onBlur={formik.handleBlur}
+                                           placeholder="Subject*"
+                                         />
+                                         <div className="mb-4">
+                                           {formik.touched.subject && formik.errors.subject && (
+                                             <span
+                                               className="formik-errors-text"
+                                               style={{ fontSize: "12px" }}
+                                             >
+                                               {formik.errors.subject}
+                                             </span>
+                                           )}
+                                         </div>
+                   
+                                         {/* Submit Button */}
+                                         <button
+                                           className="banner-right-side-button"
+                                           type="submit"
+                                           style={{
+                                             display: "flex",
+                                             justifyContent: "center",
+                                             alignItems: "center",
+                                           }}
+                                         >
+                                           {loading ? (
+                                             <ThreeDots
+                                               visible={true}
+                                               height="80"
+                                               width="80"
+                                               color="#FFFFFF"
+                                               radius="9"
+                                               ariaLabel="three-dots-loading"
+                                             />
+                                           ) : (
+                                             "Enquire Now"
+                                           )}
+                                         </button>
+                                       </form>
 
                     <p className="banner-right-side-paragraph">
                       ⚡Available from Mon - Fri 10AM TO 7PM ⚡
