@@ -319,7 +319,7 @@ const Case_endura = () => {
                             <h2>Endura Fitness The Ultimate Solution
                                 <br /> for Fitness Enthusiasts and Trainers</h2>
                             <p>
-                                Endura Fitness is a cutting-edge platform designed to bridge the gap between fitness enthusiasts and trainers, creating a seamless and engaging fitness journey. With personalized workout plans, expert nutrition guidance, and diverse content like quick workouts and healthy recipes, Endura caters to every fitness goal. Trainers can connect with users to offer tailored advice, while enthusiasts enjoy a supportive community, innovative features, and the convenience of achieving their goals anytime, anywhere. Endura is more than a platform—it’s a partner in your fitness transformation.
+                                Endura Fitness is a cutting-edge platform designed to bridge the gap between fitness enthusiasts and trainers, creating a seamless and engaging fitness journey. With personalized workout plans, expert nutrition guidance, and diverse content like quick workouts and healthy recipes, Endura caters to every fitness goal. Trainers can connect with users to offer tailored advice, while enthusiasts enjoy a supportive community, innovative features, and the convenience of achieving their goals anytime, anywhere. Endura is more than a platform it’s a partner in your fitness transformation.
                             </p>
                         </div>
                     </div>
