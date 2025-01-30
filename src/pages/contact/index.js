@@ -44,9 +44,9 @@ const Contact = () => {
     },
   });
 
-    useEffect(() => {
-      AOS.init({ once: true });
-    }, []);
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
 
   return (
     <>
@@ -229,13 +229,25 @@ const Contact = () => {
                   <div className="form-group">
                     <label for="phone">Phone number*</label>
                     <input
-                      type="text"
+                      type="tel"
                       className="form-control"
                       id="phone"
+                      value={formik.values.phoneNumber}
                       name="phone"
                       placeholder="Phone number"
-                      value={formik.values.phone}
-                      onChange={formik.handleChange}
+                      onChange={(e) => {
+                        const onlyNumbers = e.target.value.replace(/\D/g, ""); // Remove non-numeric values
+                        formik.setFieldValue("phoneNumber", onlyNumbers);
+                      }}
+                      onBlur={formik.handleBlur}
+                      inputMode="numeric" // Helps mobile users get a numeric keyboard
+                      pattern="[0-9]*" // Restricts input to numbers
+                      onKeyDown={(e) => {
+                        if (e.key === "e" || e.key === "E" || e.key === "-" || e.key === "+") {
+                          e.preventDefault(); // Prevent invalid characters
+                        }
+                      }}
+                      style={{ appearance: "textfield" }}
                     />
                     <div>
                       {formik.errors.phone && formik.touched.phone && (
